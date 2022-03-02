@@ -1,0 +1,13 @@
+.row {
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+}
+
+.navbar-container {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+} 
+
+.navbar-brand, .navbar-toggler {
+    margin: auto 10px;
+}

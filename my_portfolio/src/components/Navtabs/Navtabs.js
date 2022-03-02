@@ -1,11 +1,12 @@
 import React from "react";
+import "./style.css";
 import {
   BrowserRouter as Router,
   Routes,
-  Route,
-  useParams,
+  Route
 } from "react-router-dom";
-import { Navbar, Nav, NavDropdown, Button } from "react-bootstrap";
+import { Navbar } from "react-bootstrap";
+import Navtag from "./Navtag";
 import Home from "../../pages/Home/Home";
 import Projects from "../../pages/Projects/Projects";
 
@@ -14,18 +15,18 @@ class Navtabs extends React.Component {
     return (
       <div>
         <div className="row">
-          <div className="col-md-12">
+          <div className="col-md-12 navbar-container">
             <Router>
               <Navbar bg="dark" variant="dark" expand="lg" sticky="top">
-                <Navbar.Brand href="#home">Bootstrap Navbar</Navbar.Brand>
+                <Navbar.Brand href="/">Bootstrap Navbar</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
-                  <Nav className="mr-auto">
-                    <Nav.Link href="/">Home</Nav.Link>
-                  </Nav>
-                  <Nav className="mr-auto">
-                    <Nav.Link href="/projects">Projects</Nav.Link>
-                  </Nav>
+                  <Navtag className="home" href="/">
+                    Home
+                  </Navtag>
+                  <Navtag className="projects" href="/projects">
+                    Projects
+                  </Navtag>
                 </Navbar.Collapse>
               </Navbar>
               <br />
