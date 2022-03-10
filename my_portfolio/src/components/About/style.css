@@ -1,0 +1,20 @@
+.about-container {
+  padding: 20px;
+  background-color: white;
+}
+
+.img-container {
+  width: 20%;
+  float: left;
+  margin: auto 20px 10px auto;
+}
+
+.img-esteban {
+  width: 100%;
+  border-radius: 10%;
+  box-shadow: 0px 0px 10px black;
+}
+
+h1, p {
+  color: grey;
+}

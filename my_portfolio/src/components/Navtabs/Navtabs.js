@@ -12,7 +12,7 @@ class Navtabs extends React.Component {
       <div className="row">
         <main className="col-md-12 main-container">
           <Router>
-            <Navbar bg="dark" variant="dark" expand="lg" sticky="top">
+            <Navbar bg="dark" variant="dark" expand="lg">
               <Navbar.Brand href="/">Esteban Mendez</Navbar.Brand>
               <Navbar.Toggle aria-controls="basic-navbar-nav" />
               <Navbar.Collapse id="basic-navbar-nav">

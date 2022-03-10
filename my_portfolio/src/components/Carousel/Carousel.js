@@ -2,15 +2,20 @@ import React from "react";
 import "./style.css";
 import { Carousel } from "react-bootstrap";
 import slides from "./slides.json";
-import ImageTag from "../ImageTag";
+import ImgTag from "../Reusable/Reusable";
 
 function CarouselComp() {
   return (
     <Carousel>
       {slides.map(({ id, image, alt, caption }) => (
         <Carousel.Item key={id}>
-          {/* <img className="slideImage" src={image} alt={alt} /> */}
-          <ImageTag imgClass="slideImage" src={image} alt={alt} />
+          <ImgTag
+            containerClass="carousel-container"
+            imgClass="slideImage"
+            src={image}
+            alt={alt}
+          />
+
           <Carousel.Caption>
             <p>{caption}</p>
           </Carousel.Caption>
