@@ -1,5 +1,5 @@
 import React from "react";
-
+import "./style.css";
 import { Carousel } from "react-bootstrap";
 
 import slides from "./slides.json";
@@ -7,11 +7,10 @@ import slides from "./slides.json";
 function CarouselComp() {
   return (
     <Carousel>
-      {slides.map(({ id, image, alt, header, caption }) => (
+      {slides.map(({ id, image, alt, caption }) => (
         <Carousel.Item key={id}>
-          <img className="d-block w-100" src={image} alt={alt} />
+          <img className="image" src={image} alt={alt} />
           <Carousel.Caption>
-            <h3>{header}</h3>
             <p>{caption}</p>
           </Carousel.Caption>
         </Carousel.Item>

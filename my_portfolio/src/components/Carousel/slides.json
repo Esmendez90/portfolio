@@ -1,16 +1,30 @@
 [
     {
         "id": "1",
-        "image":"https://upload.wikimedia.org/wikipedia/en/thumb/a/a0/Sandy_Cheeks.svg/1200px-Sandy_Cheeks.svg.png",
-        "alt":"Sline one",
-        "header":"Project One",
-        "caption":"Something goes here"
+        "image": "Images/jcb/jcbOne.png",
+        "alt": "Slide one. JCB homepage - mobile responsive view.",
+        "header": "JCB Real Estate Services",
+        "caption": "Allows users to find properties/apartments for rent or for sale."
     },
     {
         "id": "2",
-        "image":"https://vignette.wikia.nocookie.net/spongebobgalaxy/images/0/07/SpongeBob_SquarePants.png/revision/latest?cb=20171228024014",
-        "alt":"Slide two",
-        "header":"Project Two",
-        "caption":"Something also goes here"
+        "image": "Images/styleMe/homepage.png",
+        "alt": "Slide two. Style me homepage - mobile responsive view.",
+        "header": "STYLE ME",
+        "caption": "Allows the user to upload photos of clothing and organize them into outfits."
+    },
+    {
+        "id": "3",
+        "image": "Images/kNutricion/homePage.png",
+        "alt": "Slide three. kNutricion homepage - mobile responsive view.",
+        "header": "K Nutricion",
+        "caption": "Spa website, hosted in heroku and still in development."
+    },
+    {
+        "id": "4",
+        "image": "Images/weatherDashboard/weatherPic.png",
+        "alt": "Slide four. Weather page - mobile responsive view.",
+        "header": "Weather Dashboard",
+        "caption": "Allows the user to see the weather forecast of any city."
     }
 ]
