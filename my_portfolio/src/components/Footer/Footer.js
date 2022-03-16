@@ -1,4 +1,5 @@
 import React from "react";
+import "./style.css";
 import { ListEl } from "../Reusable/Reusable";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Icons from "./icons.json";

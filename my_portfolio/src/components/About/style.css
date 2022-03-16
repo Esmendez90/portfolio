@@ -1,12 +1,13 @@
 .about-container {
-  padding: 20px;
+  padding: 2rem;
   background-color: white;
 }
 
 .img-container {
-  width: 20%;
+  width: 30%;
   float: left;
-  margin: auto 20px 10px auto;
+  margin: 1rem;
+  margin-right: 2rem;
 }
 
 .img-esteban {
@@ -15,6 +16,46 @@
   box-shadow: 0px 0px 10px black;
 }
 
-h1, p {
+h1 {
+  margin-bottom: 1rem !important;
+}
+
+h1,
+p {
   color: grey;
+}
+
+@media screen and (min-width: 768px) {
+  .img-container {
+    height: 15rem;
+    width: 20%;
+    margin-top: 3rem;
+  }
+  .about-container {
+    padding: 4rem;
+  }
+}
+
+@media screen and (min-width: 935px) {
+  .img-container {
+    width: 15%;
+  }
+  .about-container {
+    padding: 5rem;
+  }
+}
+
+@media screen and (min-width: 1080px) {
+  .img-container {
+    width: 10%;
+  }
+
+  .img-esteban {
+    box-shadow: 7px 5px 10px #00000099;
+  }
+
+  .about-container {
+    padding-left: 8rem;
+    padding-right: 8rem;
+  }
 }
