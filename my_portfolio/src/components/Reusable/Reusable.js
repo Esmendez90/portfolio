@@ -1,4 +1,5 @@
 import React from "react";
+// import { Link } from "react-router-dom";
 
 export default function ImgTag(props) {
   let { containerClass, imgClass, src, alt } = props;
@@ -10,12 +11,12 @@ export default function ImgTag(props) {
 }
 
 export function ListEl(props) {
-  let { liClass, href, children } = props;
+  let { liClass, href, target, children } = props;
   return (
-  <li className={liClass}>
-    <a href={href}>{children}</a>
-  </li>
+    <li className={liClass}>
+      <a href={href} target={target}>
+       {children}
+      </a>
+    </li>
   );
 }
-
-

@@ -1,0 +1,30 @@
+[
+    {
+        "id": "1",
+        "className": "github icon",
+        "website": "https://github.com/Esmendez90",
+        "target": "_blank",
+        "icon": "faGithub"
+    },
+    {
+        "id": "2",
+        "className": "linkedin icon",
+        "website": "https://www.linkedin.com/in/esteban-mendez-63515290/",
+        "target": "_blank",
+        "icon": "faLinkedin"
+    },
+    {
+        "id": "3",
+        "className": "mobile icon",
+        "website": "tel:2013601905",
+        "target": "",
+        "icon": "faPhoneAlt"
+    },
+    {
+        "id": "4",
+        "className": "squareEnvelope icon",
+        "website": "mailto:edmendezn@gmail.com",
+        "target": "_blank",
+        "icon": "faSquareEnvelope"
+    }
+]

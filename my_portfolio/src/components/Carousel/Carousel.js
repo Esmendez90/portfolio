@@ -17,7 +17,7 @@ function CarouselComp() {
           />
 
           <Carousel.Caption>
-            <p>{caption}</p>
+            <p className="caption">{caption}</p>
           </Carousel.Caption>
         </Carousel.Item>
       ))}

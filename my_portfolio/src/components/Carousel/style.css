@@ -14,8 +14,9 @@
     padding: 1.2rem !important;
 }
 
-h3, p {
-    margin-bottom: 0 !important;
+.caption {
+    margin-bottom: 0;
+    color: white;
 }
 
 
