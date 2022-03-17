@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { Navbar } from "react-bootstrap";
 import Navtag from "./Navtag";
 import Home from "../../pages/Home/Home";
-import Projects from "../../pages/Projects/Projects";
+import Portfolio from "../../pages/Portfolio/Portfolio";
 
 class Navtabs extends React.Component {
   render() {
@@ -19,7 +19,7 @@ class Navtabs extends React.Component {
                 <Navtag className="home" href="/">
                   HOME{" "}
                 </Navtag>
-                <Navtag className="projects" href="/projects">
+                <Navtag className="portfolio" href="/portfolio">
                   PORTFOLIO
                 </Navtag>
               </Navbar.Collapse>
@@ -27,7 +27,7 @@ class Navtabs extends React.Component {
 
             <Routes>
               <Route exact path="/" element={<Home />} />
-              <Route exact path="/projects" element={<Projects />} />
+              <Route exact path="/portfolio" element={<Portfolio />} />
             </Routes>
           </Router>
         </main>

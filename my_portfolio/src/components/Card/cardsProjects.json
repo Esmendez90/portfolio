@@ -1,0 +1,23 @@
+[
+    {
+        "id": "1",
+        "image": "Images/jcb/jcbOne.png",
+        "alt": "Slide one. JCB homepage - mobile responsive view.",
+        "title": "JCB Real Estate Services",
+        "text": "Allows users to find properties/apartments for rent or for sale."
+    },
+    {
+        "id": "2",
+        "image": "Images/styleMe/homepage.png",
+        "alt": "Slide two. Style me homepage - mobile responsive view.",
+        "title": "STYLE ME",
+        "text": "Allows the user to upload photos of clothing and organize them into outfits."
+    },
+    {
+        "id": "3",
+        "image": "Images/kNutricion/homePage.png",
+        "alt": "Slide three. kNutricion homepage - mobile responsive view.",
+        "title": "K Nutricion",
+        "text": "Spa website, hosted in heroku and still in development."
+    }
+]
