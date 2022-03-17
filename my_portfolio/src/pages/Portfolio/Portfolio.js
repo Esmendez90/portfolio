@@ -6,7 +6,7 @@ import Footer from "../../components/Footer/Footer";
 function Projects() {
   return (
     <>
-      <h1>Portfolio</h1>
+      <h1 className="title-portfolio">Portfolio</h1>
       <CardComp />
       <Footer />
     </>

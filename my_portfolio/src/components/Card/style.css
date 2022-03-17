@@ -1,19 +1,23 @@
 .card {
   width: 80%;
   margin: 2rem auto;
-  box-shadow: 0px 0px 10px black;
+  box-shadow: 0px 0px 5px black;
 }
 
 .card-img-top {
   margin: 1rem auto 2rem;
+  border-radius: 0.5rem;
 }
 
 .card-body {
-  background-color: rgba(245, 157, 135, 0.8);
   padding: 2rem !important;
 }
 
-.card-title,
-.card-text {
-  color: white;
+.card-title {
+  font-weight: bold !important;
+}
+
+.btn-primary {
+  background-color: white !important;
+  color: grey !important;
 }
