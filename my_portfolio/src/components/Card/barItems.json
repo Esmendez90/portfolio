@@ -1,0 +1,23 @@
+[
+    {
+        "id": "1",
+        "itemClass": "js item",
+        "href": "https://github.com/",
+        "target": "_blank",
+        "language": "Javascript 45%"
+    },
+    {
+        "id": "2",
+        "itemClass": "html item",
+        "href": "https://github.com/",
+        "target": "_blank",
+        "language": "HTML 15%"
+    },
+    {
+        "id": "3",
+        "itemClass": "css item",
+        "href": "https://github.com/",
+        "target": "_blank",
+        "language": "CSS 35%"
+    }
+]

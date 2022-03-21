@@ -21,3 +21,68 @@
   background-color: white !important;
   color: grey !important;
 }
+
+.languages-bar > .h5 {
+  color: grey;
+  margin: 1rem auto;
+}
+
+.progress {
+  height: 0.5rem !important;
+}
+
+.js-bar {
+  background-color: rgb(212, 212, 46);
+  width: 33%;
+}
+
+.item-container:nth-child(1) > svg {
+  color: rgb(212, 212, 46);
+}
+
+.css-bar {
+  background-color: rgb(214, 73, 7);
+  width: 33%;
+}
+
+.item-container:nth-child(2) > svg {
+  color: rgb(214, 73, 7);
+}
+
+.html-bar {
+  background-color: rgb(53, 51, 131);
+  width: 33%;
+}
+
+.item-container:nth-child(3) > svg {
+  color: rgb(53, 51, 131);
+}
+
+.progress-item:not(:first-child) {
+  margin-left: 2px;
+}
+
+.lang-list-container {
+  padding: 0;
+  display: block;
+  margin-top: 3px;
+}
+
+.item-container {
+  display: inline;
+}
+
+.item {
+  display: inline;
+  margin-right: 25px;
+}
+
+.item > a {
+  text-decoration: none;
+  font-size: 12px;
+}
+
+.fa-circle {
+  font-size: 8px;
+  margin-right: 2%;
+}
