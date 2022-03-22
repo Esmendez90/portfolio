@@ -4,27 +4,51 @@
         "image": "Images/jcb/jcbOne.png",
         "alt": "Slide one. JCB homepage - mobile responsive view.",
         "title": "JCB Real Estate Services",
-        "text": "This is a freelance project that allows user to find properties/apartments for rent or for sale. Users can enter their city name or zipcode to initiate a search. Application is mobile responsive. Currently working on building a database that will allow users to create an account and save their favorite properties. App is hosted in heroku."
+        "text": "This is a freelance project that allows user to find properties/apartments for rent or for sale. Users can enter their city name or zipcode to initiate a search. Application is mobile responsive. Currently working on building a database that will allow users to create an account and save their favorite properties. App is hosted in heroku.",
+        "js": "Javascript",
+        "html": "Handlebars",
+        "css": "CSS",
+        "jsPercent": "31.1%",
+        "htmlPercent": "43.8%",
+        "cssPercent": "25.1%"
     },
     {
         "id": "2",
         "image": "Images/styleMe/homepage.png",
         "alt": "Slide two. Style me homepage - mobile responsive view.",
         "title": "STYLE ME",
-        "text": "Application that allows the user to upload photos of your clothing from your camera, computer or social media. Organize their clothes into outfits and categorize them by occasion, season, mood or whatever they like!"
+        "text": "Application that allows the user to upload photos of your clothing from your camera, computer or social media. Organize their clothes into outfits and categorize them by occasion, season, mood or whatever they like!",
+        "js": "Javascript",
+        "html": "Handleblars, HTML",
+        "css": "CSS",
+        "jsPercent": "46.7%",
+        "htmlPercent": "42.8%",
+        "cssPercent": "10.5%"
     },
     {
         "id": "3",
         "image": "Images/kNutricion/homePage.png",
         "alt": "Slide three. kNutricion homepage - mobile responsive view.",
         "title": "K Nutricion",
-        "text": "Application hosted in heroku that is still in development, for a customer that owns a spa. Users will be able to see the services that are offered, a description of it, and testimonials of customers that have been satisfied with the service. App is mobile responsive. Desktop responsive is in process."
+        "text": "Application hosted in heroku that is still in development, for a customer that owns a spa. Users will be able to see the services that are offered, a description of it, and testimonials of customers that have been satisfied with the service. App is mobile responsive. Desktop responsive is in process.",
+        "js": "Javascript",
+        "html": "Handleblars",
+        "css": "CSS",
+        "jsPercent": "17.2%",
+        "htmlPercent": "64.4%",
+        "cssPercent": "18.4%"
     },
     {
         "id": "4",
         "image": "Images/weatherDashboard/weatherPic.png",
         "alt": "Slide four. Weather dashboard - mobile responsive view.",
         "title": "Weather Dashboard",
-        "text": "Allows the user to see the weather forecast of any city, as well as the forecast for the next 5 days."
+        "text": "Allows the user to see the weather forecast of any city, as well as the forecast for the next 5 days.",
+        "js": "Javascript",
+        "html": "HTML",
+        "css": "CSS",
+        "jsPercent": "42.7%",
+        "htmlPercent": "26.6%",
+        "cssPercent": "30.7%"
     }
 ]
