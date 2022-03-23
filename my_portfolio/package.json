@@ -1,6 +1,6 @@
 {
-  "name": "my_portfolio",
-  "homepage": "https://esmendez90.github.io/react-portfolio/",
+  "name": "portfolio",
+  "homepage": "https://esmendez90.github.io/portfolio/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
