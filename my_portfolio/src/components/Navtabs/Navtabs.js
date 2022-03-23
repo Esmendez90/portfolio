@@ -13,10 +13,10 @@ class Navtabs extends React.Component {
         <main className="col-md-12 main-container">
           <Router>
             <Navbar bg="dark" variant="dark" expand="lg">
-              <Navbar.Brand href="/react-portfolio">Esteban Mendez</Navbar.Brand>
+              <Navbar.Brand href="/react-portfolio/">Esteban Mendez</Navbar.Brand>
               <Navbar.Toggle aria-controls="basic-navbar-nav" />
               <Navbar.Collapse id="basic-navbar-nav">
-                <Navtag className="home" href="/">
+                <Navtag className="home" href="/react-portfolio/">
                   HOME
                 </Navtag>
                 <Navtag className="portfolio" href="/react-portfolio/portfolio">
@@ -26,7 +26,7 @@ class Navtabs extends React.Component {
             </Navbar>
 
             <Routes>
-              <Route exact path="/react-portfolio" element={<Home />} />
+              <Route exact path="/react-portfolio/" element={<Home />} />
               <Route exact path="/react-portfolio/portfolio" element={<Portfolio />} />
             </Routes>
           </Router>
