@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { Navbar } from "react-bootstrap";
 import Navtag from "./Navtag";
 import Home from "../../pages/Home/Home";
-import Portfolio from "../../pages/Portfolio/Index";
+import Portfolio from "../../pages/Portfolio/Portfolio";
 
 class Navtabs extends React.Component {
   render() {
@@ -13,21 +13,21 @@ class Navtabs extends React.Component {
         <main className="col-md-12 main-container">
           <Router>
             <Navbar bg="dark" variant="dark" expand="lg">
-              <Navbar.Brand href="/portfolio/">Esteban Mendez</Navbar.Brand>
+              <Navbar.Brand href="/">Esteban Mendez</Navbar.Brand>
               <Navbar.Toggle aria-controls="basic-navbar-nav" />
               <Navbar.Collapse id="basic-navbar-nav">
-                <Navtag className="home" href="/portfolio/">
+                <Navtag className="home" href="/portfolio">
                   HOME
                 </Navtag>
-                <Navtag className="portfolio" href="/portfolio/projects/">
+                <Navtag className="portfolio" href="/pjs">
                   PORTFOLIO
                 </Navtag>
               </Navbar.Collapse>
             </Navbar>
 
             <Routes>
-              <Route exact path="/portfolio/" element={<Home />} />
-              <Route exact path="/portfolio/projects/" element={<Portfolio />} />
+              <Route path="/portfolio" exact element={<Home />} />
+              <Route path="/portfolio/pjs" exact element={<Portfolio />} />
             </Routes>
           </Router>
         </main>
