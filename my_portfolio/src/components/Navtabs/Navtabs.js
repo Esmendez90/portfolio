@@ -19,7 +19,7 @@ class Navtabs extends React.Component {
                 <Navtag className="home" href="/portfolio">
                   HOME
                 </Navtag>
-                <Navtag className="portfolio" href="/pjs">
+                <Navtag className="portfolio" href="/portfolio/pjs">
                   PORTFOLIO
                 </Navtag>
               </Navbar.Collapse>
