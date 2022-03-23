@@ -6,6 +6,7 @@ import cardsProject from "./cardsProjects.json";
 function CardComp() {
   return (
     <>
+    <div className="card-container">
       {cardsProject.map(
         ({
           id,
@@ -13,6 +14,7 @@ function CardComp() {
           alt,
           title,
           text,
+          btnLink,
           js,
           html,
           css,
@@ -20,14 +22,19 @@ function CardComp() {
           htmlPercent,
           cssPercent,
         }) => (
+          
           <Card key={id}>
             <Card.Body>
               <Card.Title>{title}</Card.Title>
               <Card.Text>{text}</Card.Text>
-              <div>
+              <div className="port-img-container row">
                 <Card.Img variant="top" src={image} alt={alt} />
               </div>
-              <Button variant="primary">Go somewhere</Button>
+              <div className="btn-container">
+                <Button variant="primary" href={btnLink} target="_blank">
+                  See Website
+                </Button>
+              </div>
               <div className="languages-bar">
                 <Card.Title>Languages</Card.Title>
                 <span className="progress">
@@ -45,15 +52,23 @@ function CardComp() {
                   ></span>
                 </span>
                 <ul className="lang-list-container">
-                  <li className="item js-class">{js} <span>{jsPercent}</span></li>
-                  <li className="item html-class">{html} <span>{htmlPercent}</span></li>
-                  <li className="item css-class">{css} <span>{cssPercent}</span></li>
+                  <li className="item js-class">
+                    {js} <span>{jsPercent}</span>
+                  </li>
+                  <li className="item html-class">
+                    {html} <span>{htmlPercent}</span>
+                  </li>
+                  <li className="item css-class">
+                    {css} <span>{cssPercent}</span>
+                  </li>
                 </ul>
               </div>
             </Card.Body>
           </Card>
+         
         )
       )}
+      </div>
     </>
   );
 }
