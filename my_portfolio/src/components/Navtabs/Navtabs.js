@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { Navbar } from "react-bootstrap";
 import Navtag from "./Navtag";
 import Home from "../../pages/Home/Home";
-import Portfolio from "../../pages/Portfolio/Portfolio";
+import Portfolio from "../../pages/Portfolio/Index";
 
 class Navtabs extends React.Component {
   render() {
