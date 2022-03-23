@@ -19,7 +19,7 @@ class Navtabs extends React.Component {
                 <Navtag className="home" href="/portfolio/">
                   HOME
                 </Navtag>
-                <Navtag className="portfolio" href="/projects/">
+                <Navtag className="portfolio" href="/portfolio/projects/">
                   PORTFOLIO
                 </Navtag>
               </Navbar.Collapse>
@@ -27,7 +27,7 @@ class Navtabs extends React.Component {
 
             <Routes>
               <Route exact path="/portfolio/" element={<Home />} />
-              <Route exact path="/projects/" element={<Portfolio />} />
+              <Route exact path="/portfolio/projects/" element={<Portfolio />} />
             </Routes>
           </Router>
         </main>
