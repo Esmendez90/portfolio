@@ -1,9 +1,36 @@
-import Navtabs from "./components/Navtabs/Navtabs";
+import React from "react";
+import "./App.css";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { Navbar, Nav } from "react-bootstrap";
+import Home from "./pages/Home/Home";
+import Portfolio from "./pages/Portfolio/Portfolio";
 
 function App() {
   return (
     <div className="App">
-      <Navtabs />
+      <div className="row">
+        <main className="col-md-12 main-container">
+          <Router>
+            <Navbar bg="dark" variant="dark" expand="lg">
+              <Navbar.Brand href="/">Esteban Mendez</Navbar.Brand>
+              <Navbar.Toggle aria-controls="basic-navbar-nav" />
+              <Navbar.Collapse id="basic-navbar-nav">
+                <Nav className="home">
+                  <Nav.Link href="/">HOME</Nav.Link>
+                </Nav>
+                <Nav className="porfolio">
+                  <Nav.Link href="/apps">PORTFOLIO</Nav.Link>
+                </Nav>
+              </Navbar.Collapse>
+            </Navbar>
+
+            <Routes>
+            <Route path="/" exact element={<Home />} />
+              <Route path="/apps" exact element={<Portfolio />} />
+            </Routes>
+          </Router>
+        </main>
+      </div>
     </div>
   );
 }
