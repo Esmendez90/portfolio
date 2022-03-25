@@ -9,7 +9,7 @@ function About() {
         <ImgTag
           containerClass="img-container"
           imgClass="img-esteban"
-          src="/Images/esteban.jpeg"
+          src="Images/esteban.jpeg"
           alt="Esteban Mendez"
         />
 
