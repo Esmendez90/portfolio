@@ -19,14 +19,14 @@ function App() {
                   <Nav.Link href="/portfolio/">HOME</Nav.Link>
                 </Nav>
                 <Nav className="portfolio">
-                  <Nav.Link href="/portfolio/apps">PORTFOLIO</Nav.Link>
+                  <Nav.Link href="/portfolio/projects">PORTFOLIO</Nav.Link>
                 </Nav>
               </Navbar.Collapse>
             </Navbar>
 
             <Routes>
             <Route path="/portfolio/" exact element={<Home />} />
-              <Route path="/portfolio/apps" exact element={<Portfolio />} />
+              <Route path="/portfolio/projects" exact element={<Portfolio />} />
             </Routes>
           </Router>
         </main>
