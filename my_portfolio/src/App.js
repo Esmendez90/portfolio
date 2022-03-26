@@ -12,11 +12,11 @@ function App() {
         <main className="col-md-12 main-container">
           <Router>
             <Navbar bg="dark" variant="dark" expand="lg">
-              <Navbar.Brand href="/">Esteban Mendez</Navbar.Brand>
+              <Navbar.Brand href="/portfolio/">Esteban Mendez</Navbar.Brand>
               <Navbar.Toggle aria-controls="basic-navbar-nav" />
               <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="home">
-                  <Nav.Link href="/">HOME</Nav.Link>
+                  <Nav.Link href="/portfolio/">HOME</Nav.Link>
                 </Nav>
                 <Nav className="porfolio">
                   <Nav.Link href="/apps">PORTFOLIO</Nav.Link>
@@ -25,7 +25,7 @@ function App() {
             </Navbar>
 
             <Routes>
-            <Route path="/" exact element={<Home />} />
+            <Route path="/portfolio/" exact element={<Home />} />
               <Route path="/apps" exact element={<Portfolio />} />
             </Routes>
           </Router>
