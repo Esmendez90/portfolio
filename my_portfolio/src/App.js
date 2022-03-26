@@ -18,15 +18,15 @@ function App() {
                 <Nav className="home">
                   <Nav.Link href="/portfolio/">HOME</Nav.Link>
                 </Nav>
-                <Nav className="porfolio">
-                  <Nav.Link href="/apps">PORTFOLIO</Nav.Link>
+                <Nav className="portfolio">
+                  <Nav.Link href="/portfolio/apps">PORTFOLIO</Nav.Link>
                 </Nav>
               </Navbar.Collapse>
             </Navbar>
 
             <Routes>
             <Route path="/portfolio/" exact element={<Home />} />
-              <Route path="/apps" exact element={<Portfolio />} />
+              <Route path="/portfolio/apps" exact element={<Portfolio />} />
             </Routes>
           </Router>
         </main>
