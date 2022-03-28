@@ -9,7 +9,7 @@ function About() {
         <ImgTag
           containerClass="img-container"
           imgClass="img-esteban"
-          src="Images/esteban.jpeg"
+          src={process.env.PUBLIC_URL + '/Images/esteban.jpeg'}
           alt="Esteban Mendez"
         />
 
