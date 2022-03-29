@@ -7,7 +7,7 @@ let req;
 
 function Footer() {
   return (
-    <div className="footer">
+    <div id="footer" className="footer">
       <footer>
         <p>CONNECT WITH ME</p>
 

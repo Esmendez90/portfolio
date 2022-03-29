@@ -16,9 +16,7 @@ function About() {
             alt="Esteban Mendez"
           />
         <p>
-          I am a front-end developer, familiar with back-end, knowledgeable of
-          HTML, CSS, Javascript, Git/Github, jQuery, Bootstrap, node.js,
-          express.js, mysql, and React. I am truly enthusiastic about designing
+          I am truly enthusiastic about designing
           and developing web pages, solving problems, and learning new
           technologies. One of my strongest assets is that I do not mind going
           the extra mile, whether it means helping a stranger find the nearest

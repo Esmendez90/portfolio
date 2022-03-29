@@ -15,9 +15,9 @@ function Header() {
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="me-auto">
-                <Nav.Link href="#home">HOME <span className="fontAw-icon"><FontAwesomeIcon icon={faHouse} /></span></Nav.Link>
-                <Nav.Link href="#link">PORTFOLIO <span className="fontAw-icon"><FontAwesomeIcon icon={faFolder} /></span></Nav.Link>
-                <Nav.Link href="#link">LET'S CONNECT! <span className="fontAw-icon"><FontAwesomeIcon icon={faCommentDots} /></span></Nav.Link>
+                <Nav.Link href="#">HOME <span className="fontAw-icon"><FontAwesomeIcon icon={faHouse} /></span></Nav.Link>
+                <Nav.Link href="#portfolio">PORTFOLIO <span className="fontAw-icon"><FontAwesomeIcon icon={faFolder} /></span></Nav.Link>
+                <Nav.Link href="#footer">LET'S CONNECT <span className="fontAw-icon"><FontAwesomeIcon icon={faCommentDots} /></span></Nav.Link>
                 <div className="resume-container">
                 <Nav.Link href="#link">RESUME</Nav.Link>
                 </div>

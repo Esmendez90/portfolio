@@ -1,0 +1,16 @@
+.banner {
+  background-color: rgba(245, 157, 135);
+  padding: 1rem 2rem;
+}
+
+.banner > ul {
+    margin-bottom: 0;
+}
+
+.banner > p {
+  color: white;
+}
+
+.banner svg {
+  font-size: 30px !important;
+}

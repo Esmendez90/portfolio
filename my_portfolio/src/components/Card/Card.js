@@ -1,12 +1,16 @@
 import React from "react";
 import "./style.css";
-import { Card, Button } from "react-bootstrap";
+import { Card } from "react-bootstrap";
 import cardsProject from "./cardsProjects.json";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+let req = require("@fortawesome/free-brands-svg-icons");
+let req2 = require("@fortawesome/free-solid-svg-icons");
 
 function CardComp() {
   return (
     <>
-      <div className="card-container">
+      <div id="portfolio" className="card-container">
+        <h1>Portfolio</h1>
         {cardsProject.map(
           ({
             id,
@@ -15,12 +19,17 @@ function CardComp() {
             title,
             text,
             btnLink,
+            repoLink,
             js,
             html,
             css,
             jsPercent,
             htmlPercent,
             cssPercent,
+            target,
+            className,
+            icon,
+            icon2,
           }) => (
             <Card key={id}>
               <Card.Body>
@@ -34,11 +43,6 @@ function CardComp() {
                   />
                 </div>
 
-                <div className="btn-container">
-                  <Button variant="primary" href={btnLink} target="_blank">
-                    See Website
-                  </Button>
-                </div>
                 <div className="languages-bar">
                   <Card.Title>Languages</Card.Title>
                   <span className="progress">
@@ -64,6 +68,21 @@ function CardComp() {
                     </li>
                     <li className="item css-class">
                       {css} <span>{cssPercent}</span>
+                    </li>
+                  </ul>
+                </div>
+
+                <div className="btn-container">
+                  <ul>
+                    <li className={className}>
+                      <a href={repoLink} target={target}>
+                        <FontAwesomeIcon icon={req[icon]} />
+                      </a>
+                    </li>
+                    <li className={className}>
+                      <a href={btnLink} target={target}>
+                        <FontAwesomeIcon icon={req2[icon2]} />
+                      </a>
                     </li>
                   </ul>
                 </div>
