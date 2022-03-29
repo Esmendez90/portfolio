@@ -16,7 +16,8 @@
         "target":"_blank",
         "className":"links-container icon",
         "icon":"faGithub",
-        "icon2":"faArrowUpRightFromSquare"
+        "icon2":"faArrowUpRightFromSquare",
+        "icon3":"faCamera"
     },
     {
         "id": "2",
@@ -35,7 +36,8 @@
         "target":"_blank",
         "className":"links-container icon",
         "icon":"faGithub",
-        "icon2":"faArrowUpRightFromSquare"
+        "icon2":"faArrowUpRightFromSquare",
+        "icon3":"faCamera"
     },
     {
         "id": "3",
@@ -54,7 +56,8 @@
         "target":"_blank",
         "className":"links-container icon",
         "icon":"faGithub",
-        "icon2":"faArrowUpRightFromSquare"
+        "icon2":"faArrowUpRightFromSquare",
+        "icon3":"faCamera"
     },
     {
         "id": "4",
@@ -73,7 +76,8 @@
         "target":"_blank",
         "className":"links-container icon",
         "icon":"faGithub",
-        "icon2":"faArrowUpRightFromSquare"
+        "icon2":"faArrowUpRightFromSquare",
+        "icon3":"faCamera"
     },
     {
         "id": "5",
@@ -86,12 +90,13 @@
         "js": "Javascript",
         "html": "HTML",
         "css": "CSS",
-        "jsPercent": "59.1%",
-        "htmlPercent": "11.7%",
-        "cssPercent": "29.2%",
+        "jsPercent": "55.7%",
+        "htmlPercent": "9.0%",
+        "cssPercent": "35.3%",
         "target":"_blank",
         "className":"links-container icon",
         "icon":"faGithub",
-        "icon2":"faArrowUpRightFromSquare"
+        "icon2":"faArrowUpRightFromSquare",
+        "icon3":"faCamera"
     }
 ]

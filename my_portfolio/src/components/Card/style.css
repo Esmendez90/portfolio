@@ -6,8 +6,7 @@
   border: none !important;
 }
 
-.card-container > h1 {
-  text-align: center;
+.card-container > h2 {
   color: white;
   margin: 2rem;
 }
@@ -33,10 +32,7 @@
 }
 
 .port-img-container {
-  display: none !important; 
-  /* position: absolute;
-  top: 0;
-  left: 0; */
+  position: absolute;
 }
 
 .btn-container > ul {
@@ -46,11 +42,24 @@
 
 .links-container {
   margin-left: 0.4rem !important;
+  z-index: 3;
 }
 
 .links-container svg {
   color: rgb(37, 37, 37) !important;
   font-size: 30px !important;
+}
+
+.links-container svg:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5);
+}
+
+.links-container > button {
+  border: none;
+  padding: 0;
+  background-color: #2998f3 ;
 }
 
 .languages-bar > .h5 {
@@ -87,7 +96,7 @@
 .item {
   display: inline-block;
   color: rgb(37, 37, 37);
-  font-size: 12px;
+  font-size: 14px;
 }
 
 .html-class {

@@ -10,7 +10,7 @@ function CardComp() {
   return (
     <>
       <div id="portfolio" className="card-container">
-        <h1>Portfolio</h1>
+        <h2>Some Sites I've Designed</h2>
         {cardsProject.map(
           ({
             id,
@@ -30,18 +30,19 @@ function CardComp() {
             className,
             icon,
             icon2,
+            icon3,
           }) => (
             <Card key={id}>
+              <div className="port-img-container row">
+                <Card.Img
+                  variant="top"
+                  src={process.env.PUBLIC_URL + [image]}
+                  alt={alt}
+                />
+              </div>
               <Card.Body>
                 <Card.Title>{title}</Card.Title>
                 <Card.Text>{text}</Card.Text>
-                <div className="port-img-container row">
-                  <Card.Img
-                    variant="top"
-                    src={process.env.PUBLIC_URL + [image]}
-                    alt={alt}
-                  />
-                </div>
 
                 <div className="languages-bar">
                   <Card.Title>Languages</Card.Title>
@@ -83,6 +84,11 @@ function CardComp() {
                       <a href={btnLink} target={target}>
                         <FontAwesomeIcon icon={req2[icon2]} />
                       </a>
+                    </li>
+                    <li className={className}>
+                      <button>
+                        <FontAwesomeIcon icon={req2[icon3]} />
+                      </button>
                     </li>
                   </ul>
                 </div>

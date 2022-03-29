@@ -28,6 +28,8 @@ function Footer() {
             );
           })}
         </ul>
+        <p style={{textAlign:"center"}}>Designed by Esteban Mendez</p>
+        <p style={{textAlign:"center", marginTop:"0"}}>2022</p>
       </footer>
     </div>
   );
