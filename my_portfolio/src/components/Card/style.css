@@ -14,7 +14,7 @@
 .card-img-top {
   margin: 1rem auto 2rem;
   border-radius: 0.5rem;
-  opacity: 0.1;
+  opacity: 0.07;
   padding-right: 0 !important;
   padding-left: 0 !important;
 }
@@ -33,6 +33,8 @@
 
 .port-img-container {
   position: absolute;
+  height: 100%;
+  overflow: hidden;
 }
 
 .btn-container > ul {
