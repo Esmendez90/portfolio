@@ -5,7 +5,6 @@ import { ProgressBar } from "../Reusable/Reusable";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import Icons from "./icons.json";
-
 let req;
 
 function Footer() {
@@ -40,21 +39,17 @@ function Footer() {
             js="Javascript"
             html="HTML"
             css="CSS"
-            
           />
-          {/* <div className="btn-container">
-            <ul> */}
-              <p className="links-container icon">
-                <a
-                  href="https://github.com/Esmendez90/portfolio"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <FontAwesomeIcon icon={faGithub} />
-                </a>
-              </p>
-            {/* </ul>
-          </div> */}
+
+          <p className="links-container icon">
+            <a
+              href="https://github.com/Esmendez90/portfolio"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <FontAwesomeIcon icon={faGithub} />
+            </a>
+          </p>
 
           <p style={{ textAlign: "center" }}>Designed by Esteban Mendez</p>
           <p style={{ textAlign: "center", marginTop: "0" }}>2022</p>
