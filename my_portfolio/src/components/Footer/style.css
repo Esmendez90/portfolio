@@ -25,5 +25,21 @@ ul {
 
 .icon svg {
   color: white;
-  font-size: 40px;
+  font-size: 35px;
 }
+
+.footer .progress {
+  margin: 1rem;
+  margin-bottom: 0;
+}
+
+.footer .lang-list-container {
+  margin: auto 1rem;
+}
+
+.footer .links-container {
+  margin: auto 1.5rem !important;
+}
+
+
+

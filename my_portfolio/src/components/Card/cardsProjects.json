@@ -78,25 +78,5 @@
         "icon":"faGithub",
         "icon2":"faArrowUpRightFromSquare",
         "icon3":"faCamera"
-    },
-    {
-        "id": "5",
-        "image": "/Images/react-portfolio.png",
-        "alt": "React portfolio homepage - mobile responsive view.",
-        "title": "React Portfolio",
-        "text": "React porfolio that displays infomation about me along with some of the projects I have worked on.",
-        "btnLink": "/",
-        "repoLink":"https://github.com/Esmendez90/portfolio",
-        "js": "Javascript",
-        "html": "HTML",
-        "css": "CSS",
-        "jsPercent": "55.7%",
-        "htmlPercent": "9.0%",
-        "cssPercent": "35.3%",
-        "target":"_blank",
-        "className":"links-container icon",
-        "icon":"faGithub",
-        "icon2":"faArrowUpRightFromSquare",
-        "icon3":"faCamera"
     }
 ]
