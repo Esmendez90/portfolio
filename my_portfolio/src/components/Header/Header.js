@@ -10,16 +10,14 @@ import {
 import Resume from "../Resume/Resume-Esteban-Mendez.pdf";
 
 function Header() {
-  const [pos, setPos] = useState("static");
+  const [pos, setPos] = useState("top");
   useEffect(() => {
     document.addEventListener("scroll", (e) => {
       let scrolled = document.scrollingElement.scrollTop;
-      console.log("it is moving", scrolled);
-      if (scrolled >= (scrolled + 5) || scrolled <= (scrolled - 5)) {
-        console.log("how much it is moving", scrolled + 5);
+      if (scrolled >= 5) {
         setPos("moved");
       } else {
-        setPos("static");
+        setPos("top");
       }
     });
   }, []);
@@ -27,9 +25,10 @@ function Header() {
     <>
       <div
         className="header-container"
-        // style={{
-        //   display: pos === "static" ? "none" : "block",
-        // }}
+        style={{
+          backgroundColor:
+            pos === "top" ? "#2196f3" : "rgba(33, 150, 243, 0.7)",
+        }}
       >
         <Navbar bg="light" expand="lg">
           <Container>

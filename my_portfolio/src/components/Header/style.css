@@ -1,5 +1,13 @@
+.header-container {
+  position: sticky;
+  top: 0;
+  z-index: 4;
+  background-color: #2196f3;
+}
+
 .bg-light {
   --bs-bg-opacity: 0 !important;
+  background-color: none !important;
 }
 
 .logo {
