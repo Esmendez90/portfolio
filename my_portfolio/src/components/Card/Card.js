@@ -71,6 +71,7 @@ function CardComp() {
                       </a>
                     </li>
                     <li className={className}>
+                      {/* Camera icon */}
                       <button>
                         <FontAwesomeIcon icon={req2[icon3]} />
                       </button>
