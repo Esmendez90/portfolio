@@ -9,8 +9,29 @@
 
 .banner > p {
   color: white;
+  text-align: justify;
 }
 
 .banner svg {
   font-size: 30px !important;
+}
+
+@media screen and (min-width: 768px) {
+  .banner {
+    padding: 1rem 4rem;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .banner {
+    padding: 1rem 5rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .banner {
+    padding: 1rem 8rem;
+    width: 80%;
+    margin: auto;
+  }
 }

@@ -1,7 +1,6 @@
 .card {
   width: 80%;
   margin: 2rem auto;
-  /* overflow: hidden; */
   background-color: #2998f3 !important;
   border: none !important;
 }
@@ -61,7 +60,7 @@
 .links-container > button {
   border: none;
   padding: 0;
-  background-color: #2998f3 ;
+  background-color: #2998f3;
 }
 
 .languages-bar > .h5 {
@@ -122,6 +121,9 @@
 }
 
 @media screen and (min-width: 768px) {
+  .card-container > h2 {
+    margin-left: 4rem;
+  }
   .card-body {
     height: 550px;
   }
@@ -131,6 +133,18 @@
     width: 45%;
     position: relative;
     left: 50%;
+  }
+  .port-img-container {
+    position: initial;
+    height: auto;
+    overflow: auto;
+  }
+  .card-img-top {
+    opacity: 0.8;
+    margin-left: 15px !important;
+  }
+  .btn-container > ul li:nth-child(3) {
+    display: none;
   }
 
   .languages-bar > .h5 {
@@ -163,28 +177,48 @@
   }
 }
 
-@media screen and (min-width: 857px) {
+@media screen and (min-width: 900px) {
   .card-body {
-    height: 750px;
+    height: 700px;
+  }
+  .languages-bar {
+    top: 45%;
   }
 }
 
 /* Desktops, large screens */
 @media screen and (min-width: 1024px) {
+  .card-container {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    padding: 3rem 0;
+    width: 80%;
+    margin: auto;
+  }
+
+  .card-container > h2 {
+    margin-left: 1rem;
+  }
   .card {
     width: 35%;
     flex: 0 0 auto;
     margin: 0 25px;
     box-shadow: 0px 0px 20px rgb(68, 68, 68);
+    overflow: hidden;
   }
   .card-body {
     height: auto;
   }
+  .port-img-container {
+    height: 100%;
+  }
   .port-img-container > img {
     width: 100%;
     margin: auto;
-    position: relative;
+    position: absolute;
     top: 0;
+    opacity: 0.2;
   }
   .card-title,
   .card-text {
@@ -219,11 +253,5 @@
 
   .item {
     font-size: 14px;
-  }
-
-  .card-container {
-    display: flex;
-    flex-wrap: nowrap;
-    overflow-x: auto;
   }
 }

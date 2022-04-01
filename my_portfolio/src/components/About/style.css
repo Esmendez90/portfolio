@@ -37,54 +37,25 @@ p {
     width: 20%;
     margin: -2rem 0 auto 2rem;
   }
-  .banner {
-    padding: 1rem 4rem;
-  }
-  .card-container > h2 {
-    margin-left: 4rem;
-  }
+
   .about-container {
     padding: 4rem;
   }
-  .port-img-container {
-    position: initial;
-    height: auto;
-    overflow: auto;
-  }
-  .card-img-top {
-    opacity: 0.8;
-    margin-left: 15px !important;
-  }
-  .btn-container > ul li:nth-child(3) {
-    display: none;
-  }
-  footer {
-    padding-left: 4rem !important;
-    padding-right: 4rem !important;
-  }
-  footer .progress {
-    width: 50%;
-    margin-bottom: 1rem !important;
-  }
-  .lang-list-container {
-    width: fit-content;
-    float: left;
-    margin-right: 2rem !important;
-  }
 }
 
-@media screen and (min-width: 935px) {
+@media screen and (min-width: 900px) {
   .img-container {
-    width: 15%;
+    width: 18%;
+    margin-top: -5rem
   }
   .about-container {
     padding: 5rem;
   }
 }
 
-@media screen and (min-width: 1080px) {
+@media screen and (min-width: 1024px) {
   .img-container {
-    width: 10%;
+    width: 20%;
   }
 
   .img-esteban {
@@ -94,5 +65,7 @@ p {
   .about-container {
     padding-left: 8rem;
     padding-right: 8rem;
+    width: 80%;
+    margin: auto;
   }
 }

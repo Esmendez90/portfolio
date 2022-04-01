@@ -57,3 +57,13 @@
   width: fit-content;
   padding: 5px !important;
 }
+
+/* Desktops, large screens */
+@media screen and (min-width: 1024px) {
+  .nav-link {
+    margin-right: 1.5rem;
+  }
+  .resume-container {
+    padding: 2px 1px 1px;
+  }
+}
