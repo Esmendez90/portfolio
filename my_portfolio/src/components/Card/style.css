@@ -39,10 +39,15 @@
 .btn-container > ul {
   justify-content: left !important;
   padding-left: 0 !important;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.links-container:first-child{
+  margin-left: 0;
+  margin-right: 0;
 }
 
 .links-container {
-  margin-left: 0.4rem !important;
   z-index: 3;
 }
 
@@ -65,7 +70,6 @@
 
 .languages-bar > .h5 {
   color: rgb(36, 35, 35);
-  margin: 1rem auto;
 }
 
 .progress {
@@ -95,13 +99,9 @@
 }
 
 .item {
-  display: inline-block;
-  color: rgb(37, 37, 37);
+  display: block;
+  margin-bottom: -10px;
   font-size: 14px;
-}
-
-.html-class {
-  margin: auto 0px auto 3px;
 }
 
 .js-class:before {
@@ -121,18 +121,12 @@
 }
 
 @media screen and (min-width: 768px) {
-  .card-container > h2 {
-    margin-left: 4rem;
-  }
+ 
   .card-body {
     height: 550px;
-  }
-
-  .card-title,
-  .card-text {
-    width: 45%;
-    position: relative;
-    left: 50%;
+    width: 50%;
+    margin-left: auto;
+    margin-right: 0;
   }
   .port-img-container {
     position: initial;
@@ -143,37 +137,12 @@
     opacity: 0.8;
     margin-left: 15px !important;
   }
-  .btn-container > ul li:nth-child(3) {
-    display: none;
-  }
-
-  .languages-bar > .h5 {
-    left: 0;
-    margin-left: 0;
-  }
 
   .port-img-container > img {
     width: 45%;
     margin: 0;
     position: absolute;
     top: 4%;
-  }
-
-  .btn-container {
-    position: absolute;
-    top: 82%;
-    left: 60%;
-  }
-
-  .languages-bar {
-    width: 45%;
-    position: absolute;
-    top: 56%;
-    left: 50%;
-  }
-
-  .html-class {
-    margin: auto 15px;
   }
 }
 
@@ -219,7 +188,7 @@
     margin: auto;
     position: absolute;
     top: 0;
-    opacity: 0.2;
+    opacity: 0.1;
   }
   .card-title,
   .card-text {
@@ -242,10 +211,6 @@
   .btn-container > ul{
     margin-top: 1rem;
     margin-left: 1rem;
-  }
-
-  .lang-list-container {
-    margin-bottom: 0;
   }
 
   .languages-bar {

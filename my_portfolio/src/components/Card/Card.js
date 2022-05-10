@@ -44,19 +44,6 @@ function CardComp() {
                 <Card.Title>{title}</Card.Title>
                 <Card.Text>{text}</Card.Text>
 
-                <div className="languages-bar">
-                  <Card.Title>Languages</Card.Title>
-
-                  <ProgressBar
-                    jsPercent={jsPercent}
-                    htmlPercent={htmlPercent}
-                    cssPercent={cssPercent}
-                    js={js}
-                    html={html}
-                    css={css}
-                  />
-                </div>
-
                 <div className="btn-container">
                   <ul>
                     <li className={className}>
@@ -71,6 +58,34 @@ function CardComp() {
                     </li>
                   </ul>
                 </div>
+
+                <div className="languages-bar">
+                  <Card.Title>Languages</Card.Title>
+
+                  <ProgressBar
+                    jsPercent={jsPercent}
+                    htmlPercent={htmlPercent}
+                    cssPercent={cssPercent}
+                    js={js}
+                    html={html}
+                    css={css}
+                  />
+                </div>
+
+                {/* <div className="btn-container">
+                  <ul>
+                    <li className={className}>
+                      <a href={repoLink} target={target}>
+                        <FontAwesomeIcon icon={req[icon]} />
+                      </a>
+                    </li>
+                    <li className={className}>
+                      <a href={btnLink} target={target}>
+                        <FontAwesomeIcon icon={req2[icon2]} />
+                      </a>
+                    </li>
+                  </ul>
+                </div> */}
               </Card.Body>
             </Card>
           )

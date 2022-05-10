@@ -132,6 +132,8 @@
 
   .nav-link{
     margin-bottom: 0;
+    color: whitesmoke !important;
+    font-weight: bold;
   }
 
 }

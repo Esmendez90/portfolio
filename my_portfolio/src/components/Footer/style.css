@@ -34,26 +34,12 @@ ul {
   margin-bottom: 0;
 }
 
-.footer .lang-list-container {
-  margin: auto 1rem;
-}
-
-.footer .links-container {
-  margin: auto 1rem !important;
-}
-
 @media screen and (min-width: 768px) {
   footer {
     padding-left: 4rem !important;
     padding-right: 4rem !important;
   }
   footer .progress {
-    width: 50%;
-    margin-bottom: 1rem !important;
-  }
-  .lang-list-container {
-    width: fit-content;
-    float: left;
-    margin-right: 2rem !important;
+    width: 45%;
   }
 }
