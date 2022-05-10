@@ -5,7 +5,7 @@ footer {
 
 footer p {
   margin: 1rem;
-  color: white;
+  color: whitesmoke;
 }
 
 footer ul {
@@ -25,7 +25,7 @@ ul {
 }
 
 .icon svg {
-  color: white;
+  color: whitesmoke;
   font-size: 35px;
 }
 

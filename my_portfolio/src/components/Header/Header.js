@@ -20,41 +20,41 @@ function Header() {
               EM
             </Navbar.Brand>
 
-            <Navbar.Toggle aria-controls="basic-navbar-nav" />
+            <Navbar.Toggle aria-controls="basic-navbar-nav" className="menuBars" />
 
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="me-auto">
-              <Navbar.Toggle aria-controls="basic-navbar-nav" className="xmark-container">
-                <FontAwesomeIcon icon={faXmark} />
-              </Navbar.Toggle>
+                <Navbar.Toggle
+                  aria-controls="basic-navbar-nav"
+                  className="xmark-container"
+                >
+                  <FontAwesomeIcon icon={faXmark} />
+                </Navbar.Toggle>
                 <Nav.Link href="/">
-                  HOME{" "}
                   <span className="fontAw-icon">
                     <FontAwesomeIcon icon={faHouse} />
                   </span>
+                  HOME
                 </Nav.Link>
                 <Nav.Link href="#portfolio">
-                  PORTFOLIO{" "}
                   <span className="fontAw-icon">
                     <FontAwesomeIcon icon={faFolder} />
                   </span>
+                  PORTFOLIO
                 </Nav.Link>
                 <Nav.Link href="#contact">
-                  CONTACT
                   <span className="fontAw-icon">
                     <FontAwesomeIcon icon={faCommentDots} />
                   </span>
+                  CONTACT
                 </Nav.Link>
                 <div className="resume-container">
                   <Nav.Link href={Resume} target="_blank">
                     RESUME
                   </Nav.Link>
                 </div>
-                
               </Nav>
-              
             </Navbar.Collapse>
-            
           </Container>
         </Navbar>
       </div>

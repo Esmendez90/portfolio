@@ -2,7 +2,7 @@
   position: sticky;
   top: 0;
   z-index: 4;
-  background-color: #2196f3;
+  background-color: rgb(33,149,243);
 }
 
 .container {
@@ -30,13 +30,9 @@
   padding-bottom: 1rem !important;
 }
 
-.navbar-light .navbar-toggler {
+.menuBars {
   color: #5faff0 !important;
   border-color: #0686f0 !important;
-}
-
-.navbar-toggler:focus {
-  box-shadow: 0 0 0 0.2rem !important;
 }
 
 .navbar-collapse {
@@ -45,16 +41,15 @@
   left: -100%;
   top: 0px;
   width: 100%;
-  background-color:rgba(14,13,13,0.6);
+  background-color: rgba(33,149,243, 0.6);
   height: 100%;
   animation: navbar-collapse 0.1s forwards;
   animation-delay: 0.1s;
 }
-/* @-webkit-keyframes navbar-collapse {
-  100% { left: 0; }
-} */
 @keyframes navbar-collapse {
-  100% { left: 0; }
+  100% {
+    left: 0;
+  }
 }
 .collapse:not(.show) {
   animation: collapse 0.1s backwards !important;
@@ -62,37 +57,43 @@
   display: block !important;
 }
 @keyframes collapse {
-  100%{left: -100%}
+  100% {
+    left: -100%;
+  }
 }
 
 .navbar-nav {
   width: 75%;
   height: 100%;
   padding-top: 1rem;
-  background-color: grey;
+  background-color: whitesmoke;
 }
-.xmark-container{
+.xmark-container {
   width: fit-content;
-  border: none !important;
   margin-bottom: 1.5rem;
   position: relative;
   left: 80%;
   font-size: 30px !important;
+  border-color: rgba(245, 157, 135) !important;
+  color: rgba(245, 157, 135) !important;
+}
+.xmark-container > svg {
+  color: rgb(61 61 61);
 }
 
-
 .nav-link {
-  color: white !important;
+  color: rgb(61, 61, 61) !important;
   padding-top: 5rem;
-  margin-bottom: 1.5rem;
+  text-align: left;
+  margin-left: 3rem;
+  margin-bottom: 1rem;
 }
 
 .fontAw-icon {
-  margin-left: 5px;
+  margin-right: 10px;
 }
 
 .resume-container {
-  justify-content: center;
   display: flex;
 }
 
@@ -100,7 +101,10 @@
   border: 1px solid;
   border-radius: 5px;
   width: fit-content;
-  padding: 5px !important;
+  padding: 7px 13px !important;
+  background-color: rgba(245, 157, 135);
+  color: whitesmoke !important;
+  font-weight: bolder;
 }
 
 /* Desktops, large screens */

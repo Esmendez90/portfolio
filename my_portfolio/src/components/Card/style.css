@@ -6,7 +6,7 @@
 }
 
 .card-container > h2 {
-  color: white;
+  color: whitesmoke;
   margin: 2rem;
 }
 
@@ -230,7 +230,7 @@
   }
 
   .card-text{
-    color: white;
+    color: whitesmoke;
   }
   .btn-container {
     position: relative;
