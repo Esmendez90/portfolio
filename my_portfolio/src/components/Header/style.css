@@ -2,7 +2,7 @@
   position: sticky;
   top: 0;
   z-index: 4;
-  background-color: rgb(33,149,243);
+  background-color: rgb(33, 149, 243);
 }
 
 .container {
@@ -36,15 +36,13 @@
 }
 
 .navbar-collapse {
-  text-align: center;
   position: fixed;
   left: -100%;
   top: 0px;
   width: 100%;
-  background-color: rgba(33,149,243, 0.6);
+  background-color: rgba(33, 149, 243, 0.6);
   height: 100%;
-  animation: navbar-collapse 0.1s forwards;
-  animation-delay: 0.1s;
+  animation: navbar-collapse 0.5s forwards;
 }
 @keyframes navbar-collapse {
   100% {
@@ -52,7 +50,7 @@
   }
 }
 .collapse:not(.show) {
-  animation: collapse 0.1s backwards !important;
+  animation: collapse 0.5s backwards !important;
   animation-delay: 0.1s !important;
   display: block !important;
 }
@@ -107,6 +105,36 @@
   font-weight: bolder;
 }
 
+@media screen and (min-width: 768px) {
+  .navbar-nav {
+    width: 45%;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .header-container {
+    position:initial;
+  }
+  .navbar-collapse {
+    position: relative;
+    left: 0;
+    animation: none !important;
+  }
+  .navbar-nav {
+    width: 100%;
+    padding-top: 0;
+    background-color: initial;
+    justify-content: right;
+  }
+  .collapse:not(.show) {
+    animation: none !important;
+  }
+
+  .nav-link{
+    margin-bottom: 0;
+  }
+
+}
 /* Desktops, large screens */
 @media screen and (min-width: 1024px) {
   .nav-link {
