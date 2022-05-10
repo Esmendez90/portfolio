@@ -1,18 +1,23 @@
 import React from "react";
 import "./App.css";
-import Home from "./pages/Home/Home";
-
+import Header from "./components/Header/Header";
+import Banner from "./components/Banner/Banner";
+import CardComp from "./components/Card/Card";
+import About from "./components/About/About";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
-    <div className="App">
-      <div className="row">
-        <main className="col-md-12 main-container">
-          <Home />
-        </main>
-      </div>
-    </div>
-  );
+    <>
+    <main className="row">
+      <Header />
+      <About />
+      <Banner />
+      <CardComp />
+      <Footer />
+    </main>
+  </>
+  )
 }
 
 export default App;

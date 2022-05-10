@@ -2,7 +2,7 @@ import React from "react";
 import "./style.css";
 import { Card } from "react-bootstrap";
 import cardsProject from "./cardsProjects.json";
-import {ProgressBar} from "../Reusable/Reusable";
+import { ProgressBar } from "../Reusable/Reusable";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 let req = require("@fortawesome/free-brands-svg-icons");
 let req2 = require("@fortawesome/free-solid-svg-icons");
@@ -31,7 +31,6 @@ function CardComp() {
             className,
             icon,
             icon2,
-            icon3,
           }) => (
             <Card key={id}>
               <div className="port-img-container row">
@@ -69,12 +68,6 @@ function CardComp() {
                       <a href={btnLink} target={target}>
                         <FontAwesomeIcon icon={req2[icon2]} />
                       </a>
-                    </li>
-                    <li className={className}>
-                      {/* Camera icon */}
-                      <button>
-                        <FontAwesomeIcon icon={req2[icon3]} />
-                      </button>
                     </li>
                   </ul>
                 </div>

@@ -1,6 +1,6 @@
 .banner {
   background-color: rgba(245, 157, 135);
-  padding: 1rem 2rem;
+  padding: 1rem 2rem !important;
 }
 
 .banner > ul {

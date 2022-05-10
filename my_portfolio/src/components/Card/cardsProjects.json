@@ -16,8 +16,7 @@
         "target":"_blank",
         "className":"links-container icon",
         "icon":"faGithub",
-        "icon2":"faArrowUpRightFromSquare",
-        "icon3":"faCamera"
+        "icon2":"faArrowUpRightFromSquare"
     },
     {
         "id": "2",
@@ -36,8 +35,7 @@
         "target":"_blank",
         "className":"links-container icon",
         "icon":"faGithub",
-        "icon2":"faArrowUpRightFromSquare",
-        "icon3":"faCamera"
+        "icon2":"faArrowUpRightFromSquare"
     },
     {
         "id": "3",
@@ -56,8 +54,7 @@
         "target":"_blank",
         "className":"links-container icon",
         "icon":"faGithub",
-        "icon2":"faArrowUpRightFromSquare",
-        "icon3":"faCamera"
+        "icon2":"faArrowUpRightFromSquare"
     },
     {
         "id": "4",
@@ -76,7 +73,7 @@
         "target":"_blank",
         "className":"links-container icon",
         "icon":"faGithub",
-        "icon2":"faArrowUpRightFromSquare",
-        "icon3":"faCamera"
+        "icon2":"faArrowUpRightFromSquare"
+      
     }
 ]
