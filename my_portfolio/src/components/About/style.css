@@ -60,8 +60,7 @@ p {
   }
 
   .about-container {
-    padding-left: 8rem;
-    padding-right: 8rem;
+    padding: 2rem 4rem !important;
     margin: auto;
   }
 }
