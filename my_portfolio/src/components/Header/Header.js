@@ -13,7 +13,7 @@ import Resume from "../Resume/Resume-Esteban-Mendez.pdf";
 function Header() {
   return (
     <>
-      <div className="header-container" id="home">
+      <div className="header-container">
         <Navbar bg="light" expand="lg">
           <Container>
             <Navbar.Brand href="#home" className="logo">

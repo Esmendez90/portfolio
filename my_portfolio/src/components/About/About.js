@@ -5,7 +5,7 @@ import ImgTag from "../Reusable/Reusable";
 function About() {
   return (
     <>
-      <div className="about-container">
+      <div className="about-container" id="home">
         <div>
           <ImgTag
             containerClass="img-container"
