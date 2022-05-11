@@ -3,7 +3,7 @@ import "./style.css";
 import { Container, Navbar, Nav } from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-  faHouse,
+  faUser,
   faFolder,
   faCommentDots,
   faXmark,
@@ -16,7 +16,7 @@ function Header() {
       <div className="header-container">
         <Navbar bg="light" expand="lg">
           <Container>
-            <Navbar.Brand href="#home" className="logo">
+            <Navbar.Brand href="#about" className="logo">
               EM
             </Navbar.Brand>
 
@@ -30,11 +30,11 @@ function Header() {
                 >
                   <FontAwesomeIcon icon={faXmark} />
                 </Navbar.Toggle>
-                <Nav.Link href="#home">
+                <Nav.Link href="#about">
                   <span className="fontAw-icon">
-                    <FontAwesomeIcon icon={faHouse} />
+                    <FontAwesomeIcon icon={faUser} />
                   </span>
-                  HOME
+                  ABOUT
                 </Nav.Link>
                 <Nav.Link href="#portfolio">
                   <span className="fontAw-icon">
