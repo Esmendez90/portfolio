@@ -13,7 +13,7 @@ import Resume from "../Resume/Resume-Esteban-Mendez.pdf";
 function Header() {
   return (
     <>
-      <div className="header-container">
+      <div className="header-container" id="home">
         <Navbar bg="light" expand="lg">
           <Container>
             <Navbar.Brand href="#home" className="logo">
@@ -30,7 +30,7 @@ function Header() {
                 >
                   <FontAwesomeIcon icon={faXmark} />
                 </Navbar.Toggle>
-                <Nav.Link href="/">
+                <Nav.Link href="#home">
                   <span className="fontAw-icon">
                     <FontAwesomeIcon icon={faHouse} />
                   </span>
