@@ -11,7 +11,7 @@ function Banner() {
       <p>
         I am a front-end developer, familiar with back-end, knowledgeable of
         HTML, CSS, Javascript, Git/Github, jQuery, Bootstrap, node.js,
-        express.js, mysql, and React.
+        express.js, mysql, and some React.
       </p>
       <ul>
         {LangIcons.map(({ id, className, website, target, icon }) => {
