@@ -1,4 +1,5 @@
 import React from "react";
+import LanguageIcon from "./LanguageIcon";
 import "./style.css";
 
 function Banner() {
@@ -26,7 +27,9 @@ function Banner() {
             >
               Web designer
             </p>
+            <LanguageIcon/>
           </div>
+          
         </div>
       </section>
     </>
