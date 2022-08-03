@@ -8,7 +8,7 @@ function Banner() {
         className="background-banner-container"
       >
         <img
-          src="portfolio/images/estebanpic.png"
+          src="/images/estebanpic.png"
           alt="esteban background banner"
           style={{ width: "100%", minHeight: "calc(100vh)" }}
         />
