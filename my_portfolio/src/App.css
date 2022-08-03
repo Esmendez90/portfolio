@@ -1,9 +1,5 @@
-body {
-  background: linear-gradient(to bottom,
-    #2196f3,
-    #0e65ad
-  );
-  background-color: #0e65ad;
+body{
+ font-family: Hind,sans-serif !important;
 }
 .row {
   margin-right: 0 !important;

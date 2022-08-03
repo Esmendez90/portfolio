@@ -13,12 +13,12 @@ import Resume from "../Resume/Resume-Esteban-Mendez.pdf";
 function Header() {
   return (
     <>
-      <div className="header-container">
-        <Navbar bg="light" expand="lg">
+      <section className="header-container">
+        <Navbar  expand="lg">
           <Container>
-            <Navbar.Brand href="#about" className="logo">
-              EM
-            </Navbar.Brand>
+            <div href="#about" className="logo-container">
+              <img src="/portfolio/images/sheepwolf.png" alt="sheepwolf icon"/>
+            </div>
 
             <Navbar.Toggle aria-controls="basic-navbar-nav" className="menuBars" />
 
@@ -57,7 +57,7 @@ function Header() {
             </Navbar.Collapse>
           </Container>
         </Navbar>
-      </div>
+      </section>
     </>
   );
 }

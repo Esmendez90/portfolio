@@ -1,0 +1,36 @@
+.banner {
+  background-color: rgba(245, 157, 135);
+  padding: 2rem 1.5rem 2rem 2rem !important;
+}
+
+.banner > ul {
+  margin: 0.5rem auto auto;
+}
+
+.banner > p {
+  color: whitesmoke;
+  text-align: justify;
+}
+
+.banner svg {
+  font-size: 30px !important;
+}
+
+@media screen and (min-width: 768px) {
+  .banner {
+    padding: 1rem 4rem;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .banner {
+    padding: 1rem 5rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .banner {
+    padding: 2rem 4rem !important;
+    margin: auto;
+  }
+}
