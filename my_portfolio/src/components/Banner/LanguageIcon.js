@@ -15,18 +15,19 @@ function LanguageIcon() {
           <a
             href="https://www.linkedin.com/in/esteban-mendez-63515290/"
             target="_blank"
+            rel="noreferrer"
           >
             <FontAwesomeIcon icon={faLinkedinIn} />
           </a>
         </li>
 
         <li>
-          <a href="https://github.com/Esmendez90" target="_blank">
+          <a href="https://github.com/Esmendez90" target="_blank" rel="noreferrer">
             <FontAwesomeIcon icon={faGithub} />
           </a>
         </li>
         <li>
-          <a href="mailto:edmendezn@gmail.com" target="_blank">
+          <a href="mailto:edmendezn@gmail.com" target="_blank" rel="noreferrer">
             <FontAwesomeIcon icon={faEnvelope} />
           </a>
         </li>
