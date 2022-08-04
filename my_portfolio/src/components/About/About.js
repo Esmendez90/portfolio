@@ -6,7 +6,7 @@ function About() {
   return (
     <>
       <section>
-        <div className="about-row-container row">
+        <div className="about-container row-container row">
           <div className="h2-container col-sm-3">
             <div>
               <h2>

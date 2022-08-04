@@ -1,4 +1,4 @@
-.about-row-container {
+.row-container {
     color: grey;
     padding: 4rem 1rem;
 }
@@ -9,7 +9,8 @@
     font-weight: 700;
 }
 .progressBar-container {
-    margin: 4rem auto;
+    margin: 4rem auto 0;
+
 }
 .progress {
     height: 0.5rem !important;
@@ -46,4 +47,7 @@
 .wp {
     background-color: #207195;
     width: 65%;
+}
+.experience-container {
+    background-color: #e9f5fe96;
 }
