@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.b3199593.chunk.css",
-    "main.js": "/portfolio/static/js/main.dc995f75.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.dc995f75.chunk.js.map",
-    "runtime-main.js": "/portfolio/static/js/runtime-main.ff1d3d3f.js",
-    "runtime-main.js.map": "/portfolio/static/js/runtime-main.ff1d3d3f.js.map",
+    "main.css": "/portfolio/static/css/main.4453e503.chunk.css",
+    "main.js": "/portfolio/static/js/main.a38f2890.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.a38f2890.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.4015e0c1.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.4015e0c1.js.map",
     "static/css/2.0a9ec390.chunk.css": "/portfolio/static/css/2.0a9ec390.chunk.css",
-    "static/js/2.16668aac.chunk.js": "/portfolio/static/js/2.16668aac.chunk.js",
-    "static/js/2.16668aac.chunk.js.map": "/portfolio/static/js/2.16668aac.chunk.js.map",
-    "static/js/3.1555de8b.chunk.js": "/portfolio/static/js/3.1555de8b.chunk.js",
-    "static/js/3.1555de8b.chunk.js.map": "/portfolio/static/js/3.1555de8b.chunk.js.map",
+    "static/js/2.1a8a52c4.chunk.js": "/portfolio/static/js/2.1a8a52c4.chunk.js",
+    "static/js/2.1a8a52c4.chunk.js.map": "/portfolio/static/js/2.1a8a52c4.chunk.js.map",
+    "static/js/3.7d6af0c3.chunk.js": "/portfolio/static/js/3.7d6af0c3.chunk.js",
+    "static/js/3.7d6af0c3.chunk.js.map": "/portfolio/static/js/3.7d6af0c3.chunk.js.map",
     "index.html": "/portfolio/index.html",
     "static/css/2.0a9ec390.chunk.css.map": "/portfolio/static/css/2.0a9ec390.chunk.css.map",
-    "static/css/main.b3199593.chunk.css.map": "/portfolio/static/css/main.b3199593.chunk.css.map",
-    "static/js/2.16668aac.chunk.js.LICENSE.txt": "/portfolio/static/js/2.16668aac.chunk.js.LICENSE.txt",
+    "static/css/main.4453e503.chunk.css.map": "/portfolio/static/css/main.4453e503.chunk.css.map",
+    "static/js/2.1a8a52c4.chunk.js.LICENSE.txt": "/portfolio/static/js/2.1a8a52c4.chunk.js.LICENSE.txt",
     "static/media/Resume-Esteban-Mendez.98227ff9.pdf": "/portfolio/static/media/Resume-Esteban-Mendez.98227ff9.pdf"
   },
   "entrypoints": [
-    "static/js/runtime-main.ff1d3d3f.js",
+    "static/js/runtime-main.4015e0c1.js",
     "static/css/2.0a9ec390.chunk.css",
-    "static/js/2.16668aac.chunk.js",
-    "static/css/main.b3199593.chunk.css",
-    "static/js/main.dc995f75.chunk.js"
+    "static/js/2.1a8a52c4.chunk.js",
+    "static/css/main.4453e503.chunk.css",
+    "static/js/main.a38f2890.chunk.js"
   ]
 }
