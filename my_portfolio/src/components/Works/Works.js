@@ -13,7 +13,7 @@ function Works() {
         <div className="experience-container row-container row">
           <div className="h2-container col-sm-3">
             <div>
-              <h2>
+              <h2 style={{color:"#4a4a4a"}}>
                 Some sites
                 <br />
                 I've built.
@@ -24,15 +24,12 @@ function Works() {
             <div>
               {Projects.map(
                 ({ id, image, alt, title, text, siteLink, repoLink }) => (
-                  <Card key={id}>
-                    <img src={process.env.PUBLIC_URL + [image]} alt={alt} />
+                  <div key={id} className="project-card">
+                    <img src={process.env.PUBLIC_URL + [image]} alt={alt} className="d-block w-100" />
 
                     <Card.Body>
-                      <h5>{title}</h5>
-                      <p>{text}</p>
-
-                      <div className="btn-container">
-                        <ul>
+                    <div className="btn-container">
+                        <ul style={{listStyle:"none", paddingLeft:"0"}}>
                           <li className="links-container icon">
                             <a href={repoLink} target="_blank" rel="noreferrer">
                               <FontAwesomeIcon icon={faGithub} />
@@ -47,8 +44,12 @@ function Works() {
                           </li>
                         </ul>
                       </div>
+                      <h5 style={{fontWeight:"bold", color:"#4a4a4a", marginBottom: "2rem"}}>{title}</h5>
+                      <p>{text}</p>
+
+                      
                     </Card.Body>
-                  </Card>
+                  </div>
                 )
               )}
             </div>

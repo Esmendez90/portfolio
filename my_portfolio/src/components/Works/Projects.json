@@ -1,12 +1,12 @@
 [
     {
         "id": "1",
-        "image": "/images/jcbhome.png",
-        "alt": "JCB page.",
+        "image": "/images/jcbhomes.png",
+        "alt": "JCB Homes page.",
         "title": "JCB Real Estate Services",
-        "text": "App hosted in heroku allows the user to find information about real estate agent, Jennifer.",
-        "siteLink": "https://jcbhome.herokuapp.com/",
-        "repoLink": "https://github.com/Esmendez90/jcbhome",
+        "text": "Users can view information about the realtor and services offered. As well as view events, and photos. Site was designed with in WordPress.",
+        "siteLink": "https://jcb-homes.com/",
+        "repoLink": "#",
         "icon": "faGithub",
         "icon2": "faArrowUpRightFromSquare"
     },
@@ -40,6 +40,17 @@
         "text": "Allows the user to see the weather forecast of any city, as well as the forecast for the next 5 days. Data gathered from the weather API",
         "siteLink": "https://esmendez90.github.io/weather-dashboard/",
         "repoLink": "https://github.com/Esmendez90/weather-dashboard",
+        "icon": "faGithub",
+        "icon2": "faArrowUpRightFromSquare"
+    },
+    {
+        "id": "5",
+        "image": "/images/jcbhome.png",
+        "alt": "JCB page.",
+        "title": "JCB Real Estate Services",
+        "text": "Users can view information about the realtor and services offered.",
+        "siteLink": "https://jcbhome.herokuapp.com/",
+        "repoLink": "https://github.com/Esmendez90/jcbhome",
         "icon": "faGithub",
         "icon2": "faArrowUpRightFromSquare"
     }

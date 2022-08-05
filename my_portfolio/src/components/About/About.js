@@ -9,7 +9,7 @@ function About() {
         <div className="about-container row-container row">
           <div className="h2-container col-sm-3">
             <div>
-              <h2>
+              <h2 style={{color:"#4a4a4a"}}>
                 A little bit <br />
                 about me.
               </h2>
