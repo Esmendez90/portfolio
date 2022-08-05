@@ -1,45 +1,4 @@
-footer {
-  padding: 0.5rem;
-  border-top: 1px solid #55a6e7;
-}
-
-footer p {
-  margin: 1rem;
-  color: whitesmoke;
-}
-
-footer ul {
-  margin-top: 1rem;
-}
-
-ul {
-  display: inline-flex;
-  width: 100%;
-  padding: 0 2rem;
-  justify-content: center;
-}
-
-.icon {
-  display: block;
-  margin: 0 1rem;
-}
-
-.icon svg {
-  color: whitesmoke;
-  font-size: 35px;
-}
-
-.footer .progress {
-  margin: 1rem;
-  margin-bottom: 0;
-}
-
-@media screen and (min-width: 768px) {
-  footer {
-    padding-left: 4rem !important;
-    padding-right: 4rem !important;
-  }
-  footer .progress {
-    width: 45%;
-  }
-}
+/* .footer-logo{
+    width: 64px;
+    height: auto;
+} */

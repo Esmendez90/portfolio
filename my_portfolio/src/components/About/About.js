@@ -17,8 +17,8 @@ function About() {
           </div>
           <div className="text-container col-sm-8">
             <p>
-              I'm a web desginer that is truly enthusiastic about creating
-              sites, solving problems, and learning new technologies. I am
+              I'm a web designer that is truly enthusiastic about creating
+              websites, solving problems, and learning new technologies. I am
               knowledgeable of HTML, CSS, Javascript, jQuery, git/Github,
               Bootstrap, some React, photoshop, and wordpress.
             </p>

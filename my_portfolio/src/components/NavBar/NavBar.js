@@ -8,16 +8,16 @@ import {
   faCommentDots,
   faXmark,
 } from "@fortawesome/free-solid-svg-icons";
-import Resume from "../Resume/Resume-Esteban-Mendez.pdf";
+import Resume from "../Resume/Esteban-Mendez.pdf";
 
-function Header() {
+function NavBar() {
   return (
     <>
       <section className="header-container">
         <Navbar  expand="lg">
           <Container>
             <div href="#about" className="logo-container">
-              <img src="/portfolio/images/sheepwolf.png" alt="sheepwolf icon"/>
+              <img className="sheepwolf-logo" src="/portfolio/images/sheepwolf.png" alt="sheepwolf icon"/>
             </div>
 
             <Navbar.Toggle aria-controls="basic-navbar-nav" className="menuBars" />
@@ -62,4 +62,4 @@ function Header() {
   );
 }
 
-export default Header;
+export default NavBar;
