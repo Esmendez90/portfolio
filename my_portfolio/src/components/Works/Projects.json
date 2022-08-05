@@ -1,0 +1,46 @@
+[
+    {
+        "id": "1",
+        "image": "/Images/jcb/jcbOne.png",
+        "alt": "JCB homepage displaying jennifer's picture - mobile responsive view.",
+        "title": "JCB Real Estate Services",
+        "text": "App hosted in heroku allows the user to find information about real estate agent, Jennifer.",
+        "siteLink": "https://jcbhome.herokuapp.com/",
+        "repoLink": "https://github.com/Esmendez90/jcbhome",
+        "icon": "faGithub",
+        "icon2": "faArrowUpRightFromSquare"
+    },
+    {
+        "id": "2",
+        "image": "/Images/styleMe/homepage.png",
+        "alt": "Slide two. Style me homepage - mobile responsive view.",
+        "title": "STYLE ME",
+        "text": "Application that allows the user to upload photos of your clothing from your camera, computer or social media. Organize their clothes into outfits and categorize them by occasion, season, mood or whatever they like!",
+        "siteLink": "https://stylemenow.herokuapp.com/",
+        "repoLink": "https://github.com/mpasricha1/style_me_react",
+        "icon": "faGithub",
+        "icon2": "faArrowUpRightFromSquare"
+    },
+    {
+        "id": "3",
+        "image": "/Images/kNutricion/homePage.png",
+        "alt": "Slide three. kNutricion homepage - mobile responsive view.",
+        "title": "K Nutricion",
+        "text": "Application hosted in heroku that is still in development, for a customer that owns a spa. Users will be able to see the services that are offered, a description of it, and testimonials of customers that have been satisfied with the service. App is mobile responsive. Desktop responsive is in process.",
+        "siteLink": "https://k-nutricion.herokuapp.com/",
+        "repoLink": "https://github.com/Esmendez90/knutrition",
+        "icon": "faGithub",
+        "icon2": "faArrowUpRightFromSquare"
+    },
+    {
+        "id": "4",
+        "image": "/Images/weatherDashboard/weatherPic.png",
+        "alt": "Slide four. Weather dashboard - mobile responsive view.",
+        "title": "Weather Dashboard",
+        "text": "Allows the user to see the weather forecast of any city, as well as the forecast for the next 5 days.",
+        "siteLink": "https://esmendez90.github.io/weather-dashboard/",
+        "repoLink": "https://github.com/Esmendez90/weather-dashboard",
+        "icon": "faGithub",
+        "icon2": "faArrowUpRightFromSquare"
+    }
+]

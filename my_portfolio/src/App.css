@@ -1,10 +1,6 @@
-html {
-  scroll-behavior: smooth;
-}
-
 body{
  font-family: Hind,sans-serif !important;
- background-color: #fff;
+ background-color: #fff !important;
 }
 .row {
   margin-right: 0 !important;
