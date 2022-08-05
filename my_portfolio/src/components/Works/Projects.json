@@ -34,7 +34,7 @@
     },
     {
         "id": "4",
-        "image": "/Images/weatherapp.png",
+        "image": "/images/weatherapp.png",
         "alt": "Weather dashboard app.",
         "title": "Weather Dashboard",
         "text": "Allows the user to see the weather forecast of any city, as well as the forecast for the next 5 days. Data gathered from the weather API",

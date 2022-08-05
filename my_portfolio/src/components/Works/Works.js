@@ -13,7 +13,7 @@ function Works() {
         <div className="experience-container row-container row">
           <div className="h2-container col-sm-3">
             <div>
-              <h2 style={{color:"#4a4a4a"}}>
+              <h2 style={{ color: "#4a4a4a" }}>
                 Some sites
                 <br />
                 I've built.
@@ -25,9 +25,58 @@ function Works() {
               {Projects.map(
                 ({ id, image, alt, title, text, siteLink, repoLink }) => (
                   <div key={id} className="project-card">
-                    <img src={process.env.PUBLIC_URL + [image]} alt={alt} className="d-block w-100" />
-
-                    <Card.Body>
+                    <div style={{position:"relative"}}>
+                      <img
+                        src={process.env.PUBLIC_URL + [image]}
+                        alt={alt}
+                        className="d-block w-100"
+                        style={{height:"auto"}}
+                      />
+                      <div style={{
+                            position: "absolute",
+                            top: "75%",
+                            backgroundColor: "#0000009e",
+                            width: "100%",
+                            height: "25%"
+                      }}>
+                        <Card.Body style={{backgroundColor: "#00000029", height:"25%"}}>
+                          <div className="btn-container">
+                            <ul style={{ listStyle: "none", paddingLeft: "0" }}>
+                              <li className="links-container icon">
+                                <a
+                                  href={repoLink}
+                                  target="_blank"
+                                  rel="noreferrer"
+                                >
+                                  <FontAwesomeIcon icon={faGithub} />
+                                </a>
+                              </li>
+                              <li className="links-container icon">
+                                <a
+                                  href={siteLink}
+                                  target="_blank"
+                                  rel="noreferrer"
+                                >
+                                  <FontAwesomeIcon
+                                    icon={faArrowUpRightFromSquare}
+                                  />
+                                </a>
+                              </li>
+                            </ul>
+                          </div>
+                          <h5
+                            style={{
+                              fontWeight: "bold",
+                              color: "white"
+                            }}
+                          >
+                            {title}
+                          </h5>
+                          {/* <p>{text}</p> */}
+                        </Card.Body>
+                      </div>
+                    </div>
+                    {/* <Card.Body style={{backgroundColor:"white"}}>
                     <div className="btn-container">
                         <ul style={{listStyle:"none", paddingLeft:"0"}}>
                           <li className="links-container icon">
@@ -48,6 +97,9 @@ function Works() {
                       <p>{text}</p>
 
                       
+                    </Card.Body> */}
+                    <Card.Body style={{backgroundColor: "#ededed4d"}}>
+                      <p style={{color:"#5c5c5c", marginTop:"1rem"}}>{text}</p>
                     </Card.Body>
                   </div>
                 )
