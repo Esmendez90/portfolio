@@ -11,10 +11,11 @@ section {
 .navbar {
   padding-top: 1.5rem !important;
   padding-bottom: 1.5rem !important;
+  background-color: rgb(236, 94, 58);
 }
 
 .menuBars {
-  color: rgb(236, 94, 58) !important;
+  color: rgb(54, 54, 54) !important;
   border: none !important;
 }
 

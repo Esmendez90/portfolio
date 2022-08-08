@@ -14,13 +14,20 @@ function NavBar() {
   return (
     <>
       <section className="header-container">
-        <Navbar  expand="lg">
+        <Navbar expand="lg">
           <Container>
             <div className="logo-container">
-              <img className="sheepwolf-logo" src="/portfolio/images/sheepwolf.png" alt="sheepwolf icon"/>
+              <img
+                className="sheepwolf-logo"
+                src="/portfolio/images/sheepwolf.png"
+                alt="sheepwolf icon"
+              />
             </div>
 
-            <Navbar.Toggle aria-controls="basic-navbar-nav" className="menuBars" />
+            <Navbar.Toggle
+              aria-controls="basic-navbar-nav"
+              className="menuBars"
+            />
 
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="me-auto">
@@ -30,24 +37,9 @@ function NavBar() {
                 >
                   <FontAwesomeIcon icon={faXmark} />
                 </Navbar.Toggle>
-                <Nav.Link href="#about">
-                  <span className="fontAw-icon">
-                    <FontAwesomeIcon icon={faUser} />
-                  </span>
-                  ABOUT
-                </Nav.Link>
-                <Nav.Link href="#works">
-                  <span className="fontAw-icon">
-                    <FontAwesomeIcon icon={faFolder} />
-                  </span>
-                  PORTFOLIO
-                </Nav.Link>
-                <Nav.Link href="#contact">
-                  <span className="fontAw-icon">
-                    <FontAwesomeIcon icon={faCommentDots} />
-                  </span>
-                  CONTACT
-                </Nav.Link>
+                <Nav.Link href="#about">ABOUT</Nav.Link>
+                <Nav.Link href="#works">PORTFOLIO</Nav.Link>
+                <Nav.Link href="#contact">CONTACT</Nav.Link>
                 <div className="resume-container">
                   <Nav.Link href={Resume} target="_blank">
                     RESUME
