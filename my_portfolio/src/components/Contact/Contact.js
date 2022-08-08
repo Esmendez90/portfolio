@@ -6,7 +6,7 @@ function Contact() {
   return (
     <>
       <section>
-        <div className="contact-container row-container row">
+        <div id="contact" className="contact-container row-container row">
           <div className="h2-container col-sm-3">
             <div>
               <h2 style={{ color: "#4a4a4a" }}>

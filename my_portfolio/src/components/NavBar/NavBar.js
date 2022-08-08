@@ -16,7 +16,7 @@ function NavBar() {
       <section className="header-container">
         <Navbar  expand="lg">
           <Container>
-            <div href="#about" className="logo-container">
+            <div className="logo-container">
               <img className="sheepwolf-logo" src="/portfolio/images/sheepwolf.png" alt="sheepwolf icon"/>
             </div>
 
@@ -36,7 +36,7 @@ function NavBar() {
                   </span>
                   ABOUT
                 </Nav.Link>
-                <Nav.Link href="#portfolio">
+                <Nav.Link href="#works">
                   <span className="fontAw-icon">
                     <FontAwesomeIcon icon={faFolder} />
                   </span>

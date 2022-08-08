@@ -7,16 +7,17 @@ function Footer() {
       <section>
         <div className="footer-container row-container row">
           <div className="row">
-             {/* <div className="col-xs-6"> */}
-                <div className="col-xs-6">
+            <div className="col-xs-6 logo-container">
               <img
                 className="sheepwolf-logo"
                 src="/portfolio/images/sheepwolf.png"
                 alt="sheepwolf logo"
               />
-              </div>
-            {/* </div> */}
-            <div className="col-xs-6 text-right sm-text-left"></div>
+            </div>
+            <div className="col-xs-6">
+              <h5>Created by:</h5>
+              <p>Esteban Mendez</p>
+            </div>
           </div>
         </div>
       </section>

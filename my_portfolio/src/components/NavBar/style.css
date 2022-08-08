@@ -3,9 +3,10 @@ section {
   padding-left: 0 !important;
 }
 
-/* .logo-container {
-  width: 25%;
-} */
+.logo-container {
+ display: grid;
+ align-items: center;
+}
 
 .navbar {
   padding-top: 1.5rem !important;
