@@ -10,7 +10,7 @@ function Banner() {
         style={{marginTop:"-1px"}}
       >
         <img
-          src="/portfolio/images/estebanpic.png"
+          src="/portfolio/images/esteban2.png"
           alt="esteban background banner"
           style={{ width: "100%", minHeight: "calc(100vh)" }}
         />
@@ -26,8 +26,9 @@ function Banner() {
                 color: "white",
               }}
             >
-              Web designer
+              Web Designer
             </p>
+            <hr />
             <LanguageIcon/>
           </div>
           

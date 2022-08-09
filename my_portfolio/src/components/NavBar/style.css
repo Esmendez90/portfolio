@@ -104,6 +104,7 @@ section {
     position: relative;
     left: 0;
     animation: none !important;
+    background-color: rgba(0,0,0,0);
   }
   .navbar-nav {
     width: 100%;
@@ -117,8 +118,11 @@ section {
 
   .nav-link {
     margin-bottom: 0;
-    color: whitesmoke !important;
+    margin-left: 1rem;
+    color: rgb(236, 94, 58) !important;
     font-weight: bold;
+    font-size: 13px;
+
   }
 }
 /* Desktops, large screens */
