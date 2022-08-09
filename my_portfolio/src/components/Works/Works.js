@@ -36,14 +36,14 @@ function Works() {
                         style={{
                           position: "absolute",
                           top: "75%",
-                          backgroundColor: "#0000009e",
+                          backgroundColor: "rgba(0, 0, 0, 0.9)",
                           width: "100%",
                           height: "25%",
                         }}
                       >
                         <Card.Body
                           style={{
-                            backgroundColor: "#00000029",
+                            backgroundColor: "rgba(0, 0, 0, 0.9)",
                             height: "25%",
                           }}
                         >

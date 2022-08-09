@@ -14,7 +14,7 @@
         "id": "2",
         "image": "/images/stylemenow.png",
         "alt": "Stylemenow app.",
-        "title": "STYLE ME",
+        "title": "Style Me",
         "text": "Application that allows the user to upload photos of your clothing from your camera, computer or social media. Organize their clothes into outfits and categorize them by occasion, season, mood or whatever they like! This is a group project.",
         "siteLink": "https://stylemenow.herokuapp.com/",
         "repoLink": "https://github.com/mpasricha1/style_me_react",

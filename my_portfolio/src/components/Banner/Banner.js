@@ -7,6 +7,7 @@ function Banner() {
     <>
       <section
         className="background-banner-container"
+        style={{marginTop:"-1px"}}
       >
         <img
           src="/portfolio/images/estebanpic.png"
