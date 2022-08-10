@@ -2,12 +2,7 @@ import React from "react";
 import "./style.css";
 import { Container, Navbar, Nav } from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faUser,
-  faFolder,
-  faCommentDots,
-  faXmark,
-} from "@fortawesome/free-solid-svg-icons";
+import { faXmark } from "@fortawesome/free-solid-svg-icons";
 import Resume from "../Resume/Esteban-Mendez.pdf";
 
 function NavBar() {
