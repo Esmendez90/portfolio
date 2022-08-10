@@ -9,9 +9,9 @@ function Footer() {
           <div className="row">
             <div className="col-xs-6 logo-container">
               <img
-                className="sheepwolf-logo"
-                src="/portfolio/images/sheepwolf.png"
-                alt="sheepwolf logo"
+                className="logo"
+                src="/portfolio/images/logo.png"
+                alt="logo"
               />
             </div>
             <div className="col-xs-6">

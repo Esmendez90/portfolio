@@ -18,9 +18,9 @@ function NavBar() {
           <Container>
             <div className="logo-container">
               <img
-                className="sheepwolf-logo"
-                src="/portfolio/images/sheepwolf.png"
-                alt="sheepwolf icon"
+                className="logo"
+                src="/portfolio/images/logo.png"
+                alt="logo"
               />
             </div>
 
