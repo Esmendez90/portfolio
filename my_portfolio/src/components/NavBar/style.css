@@ -124,13 +124,7 @@ section {
     font-size: 13px;
 
   }
-}
-/* Desktops, large screens */
-@media screen and (min-width: 1024px) {
-  .nav-link {
-    margin-right: 1.5rem;
-  }
-  .resume-container {
-    padding: 2px 1px 1px;
+  .logo-container {
+    z-index: 1;
   }
 }

@@ -7,14 +7,15 @@ function Banner() {
     <>
       <section
         className="background-banner-container"
-        style={{marginTop:"-1px"}}
+        // style={{ marginTop: "-1px" }}
       >
-        <img
-          src="/portfolio/images/esteban2.png"
-          alt="esteban background banner"
-          style={{ width: "100%", minHeight: "calc(100vh)" }}
-        />
-
+        <div className="banner-img-container">
+          <img
+            src="/portfolio/images/esteban2.png"
+            alt="esteban background banner"
+            // style={{ width: "100%", minHeight: "calc(100vh)" }}
+          />
+        </div>
         <div className="header-text-container">
           <div>
             <h1 className="myName">
@@ -29,9 +30,8 @@ function Banner() {
               Web Designer
             </p>
             <hr />
-            <LanguageIcon/>
+            <LanguageIcon />
           </div>
-          
         </div>
       </section>
     </>

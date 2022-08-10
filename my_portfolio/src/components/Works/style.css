@@ -23,3 +23,11 @@
 .links-container svg:hover {
   color: black;
 }
+
+@media only screen and (min-width:992px){
+  .project-card {
+    width: 60%;
+    margin: auto;
+    margin-bottom: 2rem;
+  }
+}
