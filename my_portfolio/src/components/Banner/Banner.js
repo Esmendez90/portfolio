@@ -10,7 +10,7 @@ function Banner() {
       >
         <div className="banner-img-container">
           <img
-            src="/portfolio/images/esteban2.png"
+            src="/portfolio/images/backgroundbanner.png"
             alt="esteban background banner"
           />
         </div>
