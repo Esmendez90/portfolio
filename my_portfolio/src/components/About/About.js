@@ -9,7 +9,7 @@ function About() {
         <div id="about" className="about-container row-container row">
           <div className="h2-container col-sm-3">
             <div>
-              <h2 style={{color:"#4a4a4a"}}>
+              <h2 style={{ color: "#4a4a4a" }}>
                 A little bit <br />
                 about me.
               </h2>
@@ -19,8 +19,8 @@ function About() {
             <p>
               I'm a web designer that is truly enthusiastic about creating
               websites, solving problems, and learning new technologies. I am
-              knowledgeable of HTML, CSS, Javascript, jQuery, git/Github,
-              Bootstrap, some React, photoshop, and wordpress.
+              knowledgeable of HTML, CSS, Javascript, jQuery, Bootstrap, some
+              React and photoshop.
             </p>
             <p>
               One of my strongest assets is that I do not mind going the extra

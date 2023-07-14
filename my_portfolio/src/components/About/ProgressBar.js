@@ -34,18 +34,18 @@ function ProgressBar() {
         </div>
 
         <div className="progress-box">
-          <p>Photoshop <span>45%</span></p>
+          <p>Photoshop <span>40%</span></p>
           <div className="progress">
             <div className="photoshop progress-color"></div>
           </div>
         </div>
 
-        <div className="progress-box">
-          <p>WordPress <span>65%</span></p>
+        {/* <div className="progress-box">
+          <p>WordPress <span>45%</span></p>
           <div className="progress">
             <div className="wp progress-color"></div>
           </div>
-        </div>
+        </div> */}
       </div>
     </>
   );
