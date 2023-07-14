@@ -3,7 +3,7 @@ import "./style.css";
 import { Container, Navbar, Nav } from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faXmark } from "@fortawesome/free-solid-svg-icons";
-import Resume from "../Resume/Esteban-Mendez.pdf";
+import Resume from "../Resume/Esteban-Mendez2.pdf";
 
 function NavBar() {
   return (
