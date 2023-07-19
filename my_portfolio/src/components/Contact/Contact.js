@@ -1,5 +1,5 @@
 import React from "react";
-import Resume from "../Resume/Esteban-Mendez.pdf";
+import Resume from "../Resume/Esteban-Mendez2.pdf";
 import "./style.css";
 
 function Contact() {
