@@ -35,10 +35,10 @@ function Works() {
                       <div
                         style={{
                           position: "absolute",
-                          top: "75%",
+                          top: "80%",
                           backgroundColor: "rgba(0, 0, 0, 0.9)",
                           width: "100%",
-                          height: "25%",
+                          height: "20%",
                         }}
                       >
                         <Card.Body

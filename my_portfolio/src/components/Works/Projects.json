@@ -1,12 +1,12 @@
 [
     {
         "id": "1",
-        "image": "/images/jcbhomes.png",
-        "alt": "JCB Homes page.",
-        "title": "JCB Real Estate Services",
-        "text": "Users can view information about the realtor and services offered. As well as view events, and photos. Site was designed with a WordPress template and customized accordingly.",
-        "siteLink": "https://jcb-homes.com/",
-        "repoLink": "#",
+        "image": "/images/sparkapp.png",
+        "alt": "Spark events app.",
+        "title": "Spark Events",
+        "text": "Implemented ticketmaster API to create a dynamic app where users can type in and search for events, attractions, sport events and so on.",
+        "siteLink": "https://esmendez90.github.io/spark/",
+        "repoLink": "https://github.com/Esmendez90/spark",
         "icon": "faGithub",
         "icon2": "faArrowUpRightFromSquare"
     },
@@ -48,7 +48,7 @@
         "image": "/images/jcbhome.png",
         "alt": "JCB page.",
         "title": "JCB Real Estate Services",
-        "text": "Users can view information about the realtor and services offered.",
+        "text": "**Currently unavailable** Users can view information about the realtor and services offered.",
         "siteLink": "https://jcbhome.herokuapp.com/",
         "repoLink": "https://github.com/Esmendez90/jcbhome",
         "icon": "faGithub",
