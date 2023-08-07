@@ -10,7 +10,7 @@ function Banner() {
       >
         <div className="banner-img-container">
           <img
-            src="/portfolio/images/backgroundbanner.png"
+            src="/portfolio/images/pexels-aleksandar-pasaric-2341830.jpg"
             alt="esteban background banner"
           />
         </div>
@@ -25,7 +25,7 @@ function Banner() {
                 color: "white",
               }}
             >
-              Web Designer
+              Web Developer
             </p>
             <hr />
             <LanguageIcon />

@@ -33,21 +33,45 @@ function Works() {
                         style={{ height: "auto" }}
                       />
                       <div
-                        style={{
-                          position: "absolute",
-                          top: "80%",
-                          backgroundColor: "rgba(0, 0, 0, 0.9)",
-                          width: "100%",
-                          height: "20%",
-                        }}
+                        className="btn-container"
+                        style={{ backgroundColor: "black" }}
                       >
-                        <Card.Body
+                        <ul
                           style={{
-                            backgroundColor: "rgba(0, 0, 0, 0.9)",
-                            height: "25%",
+                            listStyle: "none",
+                            marginBottom: "0",
+                            padding: "10px 0",
                           }}
                         >
-                          <div className="btn-container">
+                          <li className="links-container icon">
+                            <a href={repoLink} target="_blank" rel="noreferrer">
+                              <FontAwesomeIcon icon={faGithub} />
+                            </a>
+                          </li>
+                          <li className="links-container icon">
+                            <a href={siteLink} target="_blank" rel="noreferrer">
+                              <FontAwesomeIcon
+                                icon={faArrowUpRightFromSquare}
+                              />
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                      <div
+                      // style={{
+                      //   position: "absolute",
+                      //   top: "80%",
+                      //   backgroundColor: "rgba(0, 0, 0, 0.9)",
+                      //   width: "100%",
+                      //   height: "20%",
+                      // }}
+                      >
+                        <Card.Body
+                        style={{
+                          padding: "1rem 1rem 0"
+                        }}
+                        >
+                          {/* <div className="btn-container">
                             <ul style={{ listStyle: "none", paddingLeft: "0" }}>
                               <li className="links-container icon">
                                 <a
@@ -70,11 +94,11 @@ function Works() {
                                 </a>
                               </li>
                             </ul>
-                          </div>
+                          </div> */}
                           <h5
                             style={{
                               fontWeight: "bold",
-                              color: "white",
+                              color: "black",
                             }}
                           >
                             {title}

@@ -12,17 +12,6 @@
     },
     {
         "id": "2",
-        "image": "/images/stylemenow.png",
-        "alt": "Stylemenow app.",
-        "title": "Style Me",
-        "text": "Application that allows the user to upload photos of your clothing from your camera, computer or social media. Organize their clothes into outfits and categorize them by occasion, season, mood or whatever they like! This is a group project.",
-        "siteLink": "https://stylemenow.herokuapp.com/",
-        "repoLink": "https://github.com/mpasricha1/style_me_react",
-        "icon": "faGithub",
-        "icon2": "faArrowUpRightFromSquare"
-    },
-    {
-        "id": "3",
         "image": "/images/gullible.png",
         "alt": "Gullible app",
         "title": "Gullible",
@@ -33,7 +22,7 @@
         "icon2": "faArrowUpRightFromSquare"
     },
     {
-        "id": "4",
+        "id": "3",
         "image": "/images/weatherapp.png",
         "alt": "Weather dashboard app.",
         "title": "Weather Dashboard",
@@ -44,14 +33,15 @@
         "icon2": "faArrowUpRightFromSquare"
     },
     {
-        "id": "5",
-        "image": "/images/jcbhome.png",
-        "alt": "JCB page.",
-        "title": "JCB Real Estate Services",
-        "text": "**Currently unavailable** Users can view information about the realtor and services offered.",
-        "siteLink": "https://jcbhome.herokuapp.com/",
-        "repoLink": "https://github.com/Esmendez90/jcbhome",
+        "id": "4",
+        "image": "/images/stylemenow.png",
+        "alt": "Stylemenow app.",
+        "title": "Style Me",
+        "text": "Application that allows the user to upload photos of your clothing from your camera, computer or social media. Organize their clothes into outfits and categorize them by occasion, season, mood or whatever they like! This is a group project.",
+        "siteLink": "https://stylemenow.herokuapp.com/",
+        "repoLink": "https://github.com/mpasricha1/style_me_react",
         "icon": "faGithub",
         "icon2": "faArrowUpRightFromSquare"
     }
+  
 ]
