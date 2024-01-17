@@ -2,7 +2,7 @@
     {
         "id": "1",
         "image": "/images/sparkapp.png",
-        "alt": "Spark events app.",
+        "alt": "Spark events mobile site image",
         "title": "Spark Events",
         "text": "Implemented ticketmaster API to create a dynamic app where users can type in and search for events, attractions, sport events and so on.",
         "siteLink": "https://esmendez90.github.io/spark/",
@@ -13,7 +13,7 @@
     {
         "id": "2",
         "image": "/images/gullible.png",
-        "alt": "Gullible app",
+        "alt": "Gullible mobile site image",
         "title": "Gullible",
         "text": "Allows the user to search for movie or series information. Data is gathered from the omdb API.",
         "siteLink": "https://esmendez90.github.io/gullible/",
@@ -24,16 +24,26 @@
     {
         "id": "3",
         "image": "/images/weatherapp.png",
-        "alt": "Weather dashboard app.",
+        "alt": "Weather dashboard mobile site image",
         "title": "Weather Dashboard",
         "text": "Allows the user to see the weather forecast of any city, as well as the forecast for the next 5 days. Data gathered from the weather API",
         "siteLink": "https://esmendez90.github.io/weather-dashboard/",
         "repoLink": "https://github.com/Esmendez90/weather-dashboard",
         "icon": "faGithub",
         "icon2": "faArrowUpRightFromSquare"
+    },{
+        "id": "4",
+        "image": "/images/theberryhomeland.png",
+        "alt": "The berry homeland mobile site image",
+        "title": "The Berry Homeland",
+        "text": "The Berry Homeland website displays information about this Abaca farm company.",
+        "siteLink": "https://www.theberryhomeland.com/",
+        "repoLink": "https://github.com/Esmendez90/theberryhomeland",
+        "icon": "faGithub",
+        "icon2": "faArrowUpRightFromSquare"
     },
     {
-        "id": "4",
+        "id": "5",
         "image": "/images/stylemenow.png",
         "alt": "Stylemenow app.",
         "title": "Style Me",
