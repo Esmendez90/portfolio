@@ -17,10 +17,12 @@ function About() {
           </div>
           <div className="text-container col-sm-8">
             <p>
-              I'm a web designer that is truly enthusiastic about creating
-              websites, solving problems, and learning new technologies. I am
-              knowledgeable of HTML, CSS, Javascript, jQuery, Bootstrap, some
-              React and photoshop.
+              Dedicated web developer with a solid foundation in creating
+              intuitive and user-friendly websites. Experienced in front-end
+              development, bringing a professional approach to projects. Skilled
+              in HTML, CSS, JavaScript, and other modern web technologies,
+              committed to developing web applications that optimize processes
+              and improve efficiency.
             </p>
             <p>
               One of my strongest assets is that I do not mind going the extra

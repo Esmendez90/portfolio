@@ -26,7 +26,7 @@
         "image": "/images/weatherapp.png",
         "alt": "Weather dashboard mobile site image",
         "title": "Weather Dashboard",
-        "text": "Allows the user to see the weather forecast of any city, as well as the forecast for the next 5 days. Data gathered from the weather API",
+        "text": "Allows the user to see the weather forecast of any city, as well as the forecast for the next 5 days. Data gathered from the weather API. All weather icons were designed, customized, and animated by me.",
         "siteLink": "https://esmendez90.github.io/weather-dashboard/",
         "repoLink": "https://github.com/Esmendez90/weather-dashboard",
         "icon": "faGithub",

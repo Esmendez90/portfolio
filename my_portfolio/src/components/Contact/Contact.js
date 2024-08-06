@@ -20,7 +20,7 @@ function Contact() {
             <div className="row">
               <div className="col-md-3 col-xs-6 md-margin-b-30">
                 <h5>Location</h5>
-                <p>West New York, NJ</p>
+                <p>New York, NY</p>
               </div>
               <div className="col-md-3 col-xs-6 md-margin-b-30">
                 <h5>Email</h5>

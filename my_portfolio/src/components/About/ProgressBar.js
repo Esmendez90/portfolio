@@ -27,14 +27,14 @@ function ProgressBar() {
         </div>
 
         <div className="progress-box">
-          <p>React <span>40%</span></p>
+          <p>React <span>30%</span></p>
           <div className="progress">
             <div className="react progress-color"></div>
           </div>
         </div>
 
         <div className="progress-box">
-          <p>Photoshop <span>40%</span></p>
+          <p>Photoshop <span>30%</span></p>
           <div className="progress">
             <div className="photoshop progress-color"></div>
           </div>
