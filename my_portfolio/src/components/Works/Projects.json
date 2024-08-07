@@ -1,7 +1,7 @@
 [
     {
         "id": "1",
-        "image": "/images/theberryhomeland.png",
+        "image": "./images/theberryhomeland.png",
         "alt": "The berry homeland mobile site image",
         "title": "The Berry Homeland",
         "text": "The Berry Homeland website displays information about this agricultural business experts in the Abaca fiber manufacturing. Developed and customized E-Commerce website using Bootstrap, HTML, CSS and JS. Site deployed to github-pages.",
