@@ -1,6 +1,28 @@
 [
     {
         "id": "1",
+        "image": "/images/theberryhomeland.png",
+        "alt": "The berry homeland mobile site image",
+        "title": "The Berry Homeland",
+        "text": "The Berry Homeland website displays information about this agricultural business experts in the Abaca fiber manufacturing. Developed and customized E-Commerce website using Bootstrap, HTML, CSS and JS. Site deployed to github-pages.",
+        "siteLink": "https://www.theberryhomeland.com/",
+        "repoLink": "https://github.com/Esmendez90/theberryhomeland",
+        "icon": "faGithub",
+        "icon2": "faArrowUpRightFromSquare"
+    },
+    {
+        "id": "2",
+        "image": "/images/jcbhome-img.png",
+        "alt": "JCB home homepage",
+        "title": "JCB Real Estate Services",
+        "text": "Application that allows the user to see infomation about the real estate agent, as well their journey to a realty career, and team members. Site created with React, HTML, CSS, JS, and deployed to github pages.",
+        "siteLink": "https://esmendez90.github.io/jcbhome/#/",
+        "repoLink": "https://github.com/Esmendez90/jcbhome",
+        "icon": "faGithub",
+        "icon2": "faArrowUpRightFromSquare"
+    },
+    {
+        "id": "3",
         "image": "/images/sparkapp.png",
         "alt": "Spark events mobile site image",
         "title": "Spark Events",
@@ -11,7 +33,7 @@
         "icon2": "faArrowUpRightFromSquare"
     },
     {
-        "id": "2",
+        "id": "4",
         "image": "/images/gullible.png",
         "alt": "Gullible mobile site image",
         "title": "Gullible",
@@ -22,34 +44,13 @@
         "icon2": "faArrowUpRightFromSquare"
     },
     {
-        "id": "3",
+        "id": "5",
         "image": "/images/weatherapp.png",
         "alt": "Weather dashboard mobile site image",
         "title": "Weather Dashboard",
         "text": "Allows the user to see the weather forecast of any city, as well as the forecast for the next 5 days. Data gathered from the weather API. All weather icons were designed, customized, and animated by me.",
         "siteLink": "https://esmendez90.github.io/weather-dashboard/",
         "repoLink": "https://github.com/Esmendez90/weather-dashboard",
-        "icon": "faGithub",
-        "icon2": "faArrowUpRightFromSquare"
-    },{
-        "id": "4",
-        "image": "/images/theberryhomeland.png",
-        "alt": "The berry homeland mobile site image",
-        "title": "The Berry Homeland",
-        "text": "The Berry Homeland website displays information about this Abaca farm company.",
-        "siteLink": "https://www.theberryhomeland.com/",
-        "repoLink": "https://github.com/Esmendez90/theberryhomeland",
-        "icon": "faGithub",
-        "icon2": "faArrowUpRightFromSquare"
-    },
-    {
-        "id": "5",
-        "image": "/images/stylemenow.png",
-        "alt": "Stylemenow app.",
-        "title": "Style Me",
-        "text": "Application that allows the user to upload photos of your clothing from your camera, computer or social media. Organize their clothes into outfits and categorize them by occasion, season, mood or whatever they like! This is a group project.",
-        "siteLink": "https://stylemenow.herokuapp.com/",
-        "repoLink": "https://github.com/mpasricha1/style_me_react",
         "icon": "faGithub",
         "icon2": "faArrowUpRightFromSquare"
     }
