@@ -59,7 +59,7 @@ If you're interested in collaborating or have any questions, feel free to contac
 
 ## Resume
 
-You can view my resume [https://esmendez90.github.io/portfolio/static/media/EstebanMendezResume.dab3a8e2.pdf](#).
+Checkout my portfolio for an updated resume.
 
 ---
 
