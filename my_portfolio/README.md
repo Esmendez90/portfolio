@@ -9,7 +9,6 @@ Welcome to my personal portfolio! This repository showcases my work as a web dev
 - [Technologies](#technologies)
 - [Contact](#contact)
 - [Resume](#resume)
-- [License](#license)
 
 ## About Me
 
