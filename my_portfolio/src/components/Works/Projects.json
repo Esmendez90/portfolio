@@ -1,7 +1,7 @@
 [
     {
         "id": "1",
-        "image": "/images/theberryhomeland.png",
+        "image": "/images/theberry-homeland.png",
         "alt": "The berry homeland mobile site image",
         "title": "The Berry Homeland",
         "text": "The Berry Homeland website is a comprehensive platform designed to showcase the expertise of an agricultural business specializing in Abaca fiber manufacturing. The site provides detailed information about the company's history, products, and practices. It features a clean, user-friendly interface that makes it easy for visitors to navigate through the different sections of the site. Additionally, the website includes contact information and a gallery page. Built using Bootstrap, HTML, CSS, JS, and deployed to gh-pages.",
