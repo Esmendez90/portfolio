@@ -15,7 +15,7 @@
         "image": "/images/jcbhome-img.png",
         "alt": "JCB home homepage",
         "title": "JCB Real Estate Services",
-        "text": "The JCB Real Estate Services application is a platform designed to provide users with comprehensive information about a real estate agent and their professional journey. It offers insights into the agent's background, career milestones, and team members, allowing potential clients to connect with the agent's expertise and experience. The application was developed using React, HTML, CSS, and JavaScript, ensuring a responsive and interactive user experience. It is deployed on GitHub Pages, making it easily accessible for users seeking real estate services.",
+        "text": "The JCB Real Estate Services application is a platform designed to provide users with comprehensive information about a real estate agent and their professional journey. It offers insights into the agent's background, career milestones, and team members, allowing potential clients to connect with the agent's expertise and experience. The application was developed using React, HTML, CSS, JavaScript,and Photoshop ensuring a responsive and interactive user experience. It is deployed on GitHub Pages, making it easily accessible for users seeking real estate services.",
         "siteLink": "https://esmendez90.github.io/jcbhome/#/",
         "repoLink": "https://github.com/Esmendez90/jcbhome",
         "icon": "faGithub",
