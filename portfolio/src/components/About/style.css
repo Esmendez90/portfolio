@@ -1,0 +1,53 @@
+.row-container {
+    color: grey;
+    padding: 4rem 1rem;
+}
+.h2-container {
+    margin-bottom: 4rem;
+}
+.h2-container h2 {
+    font-weight: 700;
+}
+.progressBar-container {
+    margin: 4rem auto 0;
+
+}
+.progress {
+    height: 0.5rem !important;
+}
+.progress-box{
+    margin-bottom: 1rem;
+}
+.progress-box p{
+    margin-bottom: 0;
+}
+.progress-box p span {
+    float: right;
+}
+.html  {
+    background-color: #db4d25;
+    width: 90%;
+}
+.css  {
+    background-color: #244bdd;
+    width: 90%;
+}
+.js  {
+    background-color: #efd81b;
+    width: 60%;
+}
+.react  {
+    background-color: #5fd3f3;
+    width: 30%;
+}
+.photoshop {
+    background-color: #2ea3f7;
+    width: 30%;
+}
+.wp {
+    background-color: #207195;
+    width: 65%;
+}
+.experience-container {
+    background-color: #e9f5fe96;
+}

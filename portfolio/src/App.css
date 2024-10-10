@@ -1,0 +1,21 @@
+body{
+  font-family: Hind,sans-serif !important;
+  background-color: #fff !important;
+ }
+ .row {
+   margin-right: 0 !important;
+   margin-left: 0 !important;
+ }
+ .logo-container {
+   width: 100%;
+ }
+ .logo {
+   width: 65px;
+ }
+ @media only screen and (min-width:768px){
+   .col-sm-8{
+     margin-left: 8.33333333%;
+   }
+  
+ }
+ 

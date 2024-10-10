@@ -1,0 +1,33 @@
+.project-card{
+    border: 0.4px solid #e1e0e0;
+    margin-bottom: 2rem;
+}
+
+/* merge styling witht the banner icons in banner directory */
+.links-container {
+  display: inline-block;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+.links-container a {
+  width: 40px;
+  height: 40px;
+  font-size: 19px;
+  color: white;
+  border-radius: 50%;
+  padding: 0.5rem;
+}
+.links-container a:hover {
+  background-color: rgb(236, 94, 58);
+}
+.links-container svg:hover {
+  color: black;
+}
+
+@media only screen and (min-width:992px){
+  .project-card {
+    width: 60%;
+    margin: auto;
+    margin-bottom: 2rem;
+  }
+}

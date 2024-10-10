@@ -1,0 +1,16 @@
+
+.footer-container {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    /* background-image: linear-gradient(45deg, rgb(236, 94, 58), transparent); */
+    background-color: #e9f5fe96;
+}
+.footer-container .col-xs-6:nth-child(2) {
+    align-items: center;
+    justify-content: center;
+    display: grid;
+}
+.footer-container .col-xs-6 h5, .footer-container .col-xs-6 p {
+    margin-bottom: 0 !important;
+    color:  #4f4e4e;
+}

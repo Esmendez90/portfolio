@@ -1,0 +1,24 @@
+.col-xs-6 h5 {
+  font-weight: 700 !important;
+  color: #515769;
+  line-height: 1.4 !important;
+  margin: 0 0 15px !important;
+}
+.col-xs-6 h5,
+.col-xs-6 p,
+.col-xs-6 a {
+  font-size: 14px !important;
+  color: grey;
+  text-decoration: none;
+}
+.col-xs-6 a:hover {
+  color: black;
+  text-decoration: underline;
+}
+.col-xs-6 {
+  width: 50% !important;
+}
+.col-md-3 a {
+  display: block;
+  margin-bottom: 1rem;
+}

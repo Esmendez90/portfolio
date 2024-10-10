@@ -1,0 +1,69 @@
+[
+    {
+        "id": "1",
+        "image": "/images/2northapp.png",
+        "alt": "2 North Monitoring Devices site image",
+        "title": "2 North Monitoring Devices",
+        "text": "This website provides easy access to essential information about cardiac monitoring devices used in our clinic, including usage guidelines, ordering codes, and application instructions. It is designed to streamline workflows and reduce the need for printed materials. The site was built using HTML, CSS, JavaScript, and Bootstrap for a responsive and user-friendly design. It is deployed on GitHub Pages and uses Namecheap as the DNS provider.",
+        "siteLink": "https://www.2northmonitoringdevices.info/",
+        "repoLink": "https://github.com/Esmendez90/2northmonitoringdevices",
+        "icon": "faGithub",
+        "icon2": "faArrowUpRightFromSquare"
+    },
+    {
+        "id": "2",
+        "image": "/images/theberryhomeland.png",
+        "alt": "The berry homeland mobile site image",
+        "title": "The Berry Homeland",
+        "text": "The Berry Homeland website is a comprehensive platform designed to showcase the expertise of an agricultural business specializing in Abaca fiber manufacturing. The site provides detailed information about the company's history, products, and practices. It features a clean, user-friendly interface that makes it easy for visitors to navigate through the different sections of the site. Additionally, the website includes contact information and a gallery page. Built using Bootstrap, HTML, CSS, JS, and deployed to gh-pages.",
+        "siteLink": "https://www.theberryhomeland.com/",
+        "repoLink": "https://github.com/Esmendez90/theberryhomeland",
+        "icon": "faGithub",
+        "icon2": "faArrowUpRightFromSquare"
+    },
+    {
+        "id": "3",
+        "image": "/images/jcbhome-img.png",
+        "alt": "JCB home homepage",
+        "title": "JCB Real Estate Services",
+        "text": "The JCB Real Estate Services application is a platform designed to provide users with comprehensive information about a real estate agent and their professional journey. It offers insights into the agent's background, career milestones, and team members, allowing potential clients to connect with the agent's expertise and experience. The application was developed using React, HTML, CSS, JavaScript,and Photoshop ensuring a responsive and interactive user experience. It is deployed on GitHub Pages, making it easily accessible for users seeking real estate services.",
+        "siteLink": "https://esmendez90.github.io/jcbhome/#/",
+        "repoLink": "https://github.com/Esmendez90/jcbhome",
+        "icon": "faGithub",
+        "icon2": "faArrowUpRightFromSquare"
+    },
+    {
+        "id": "4",
+        "image": "/images/sparkapp.png",
+        "alt": "Spark events mobile site image",
+        "title": "Spark Events",
+        "text": "Spark Events is a dynamic application that leverages the Ticketmaster API to enable users to search for a wide range of events, including concerts, attractions, and sports events. Users can type in their interests and receive a comprehensive list of related events, complete with ticketing options and links to event social media pages. The application was built using HTML, CSS, and JavaScript, providing an intuitive and interactive user experience for event discovery",
+        "siteLink": "https://esmendez90.github.io/spark/",
+        "repoLink": "https://github.com/Esmendez90/spark",
+        "icon": "faGithub",
+        "icon2": "faArrowUpRightFromSquare"
+    },
+    {
+        "id": "5",
+        "image": "/images/gullible.png",
+        "alt": "Gullible mobile site image",
+        "title": "Gullible",
+        "text": "Gullible is an application that allows users to search for detailed information about movies and series. By leveraging the OMDB API, the app provides users with access to a vast database of film and TV data, including plot summaries, cast details, release dates, and more. The straightforward search functionality ensures that users can easily find the information they are looking for, enhancing their viewing experience.",
+        "siteLink": "https://esmendez90.github.io/gullible/",
+        "repoLink": "https://github.com/Esmendez90/gullible",
+        "icon": "faGithub",
+        "icon2": "faArrowUpRightFromSquare"
+    },
+    {
+        "id": "6",
+        "image": "/images/weatherapp.png",
+        "alt": "Weather dashboard mobile site image",
+        "title": "Weather Dashboard",
+        "text": "The Weather Dashboard application provides users with real-time weather forecasts for any city, including a detailed 5-day outlook. Utilizing data from a weather API, the application delivers accurate and up-to-date weather information. I designed, customized, and animated all the weather icons to enhance the visual appeal and user experience. The site was built with HTML, CSS, and JavaScript, ensuring a responsive and interactive platform for weather enthusiasts.",
+        "siteLink": "https://esmendez90.github.io/weather-dashboard/",
+        "repoLink": "https://github.com/Esmendez90/weather-dashboard",
+        "icon": "faGithub",
+        "icon2": "faArrowUpRightFromSquare"
+    }
+  
+]

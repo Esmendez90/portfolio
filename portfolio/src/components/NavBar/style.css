@@ -1,0 +1,134 @@
+section {
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+}
+
+.navbar>.container{
+  flex-wrap: unset;
+  justify-content: unset;
+}
+.logo-container {
+ display: grid;
+ align-items: center;
+}
+
+.navbar {
+  padding-top: 1.5rem !important;
+  padding-bottom: 1.5rem !important;
+  background-color: #e9f5fe96;
+  margin-bottom: 0;
+}
+
+.menuBars {
+  color: rgb(236, 94, 58) !important;
+  border: none !important;
+}
+
+.navbar-collapse {
+  position: fixed;
+  left: -100%;
+  top: 0px;
+  width: 100%;
+  z-index: 1;
+  background-color: rgba(14, 13, 13, 0.6);
+  height: 100%;
+  animation: navbar-collapse 0.5s forwards;
+}
+@keyframes navbar-collapse {
+  100% {
+    left: 0;
+  }
+}
+.collapse:not(.show) {
+  animation: collapse 0.5s backwards !important;
+  animation-delay: 0.1s !important;
+  display: block !important;
+}
+@keyframes collapse {
+  100% {
+    left: -100%;
+  }
+}
+
+.navbar-nav {
+  width: 75%;
+  height: 100%;
+  padding-top: 1rem;
+  background-color: whitesmoke;
+}
+.xmark-container {
+  width: fit-content;
+  margin-bottom: 1.5rem;
+  position: relative;
+  left: 80%;
+  font-size: 30px !important;
+  border-color: rgb(14, 13, 13) !important;
+  color: rgb(14, 13, 13) !important;
+}
+.xmark-container > svg {
+  color: rgb(236, 94, 58);
+}
+
+.nav-link {
+  color: rgb(61, 61, 61) !important;
+  text-align: left;
+  margin-left: 3rem;
+  margin-bottom: 1rem;
+}
+
+.fontAw-icon {
+  margin-right: 10px;
+}
+
+.resume-container {
+  display: flex;
+}
+
+.resume-container > a {
+  border: 1px solid;
+  border-radius: 5px;
+  width: fit-content;
+  padding: 7px 13px !important;
+  background-color: rgb(236, 94, 58);
+  color: whitesmoke !important;
+  font-weight: bolder;
+}
+
+@media screen and (min-width: 768px) {
+  .navbar-nav {
+    width: 45%;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .header-container {
+    position: initial;
+  }
+  .navbar-collapse {
+    position: relative;
+    left: 0;
+    animation: none !important;
+    background-color: rgba(0,0,0,0);
+  }
+  .navbar-nav {
+    width: 100%;
+    padding-top: 0;
+    background-color: initial;
+    justify-content: right;
+  }
+  .collapse:not(.show) {
+    animation: none !important;
+  }
+
+  .nav-link {
+    margin-bottom: 0;
+    margin-left: 1rem;
+    color: rgb(236, 94, 58) !important;
+    font-weight: bold;
+    font-size: 13px;
+
+  }
+  .logo-container {
+    z-index: 1;
+  }
+}
