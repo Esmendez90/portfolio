@@ -10,7 +10,7 @@ function Footer() {
             <div className="col-xs-6 logo-container">
               <img
                 className="logo"
-                src={"/portfolio/images/logo.png"}
+                src={"/images/logo.png"}
                 alt="logo"
               />
             </div>

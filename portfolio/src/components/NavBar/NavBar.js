@@ -14,7 +14,7 @@ function NavBar() {
             <div className="logo-container">
               <img
                 className="logo"
-                src={'/portfolio/images/logo.png'}
+                src={'/images/logo.png'}
                 alt="logo"
               />
             </div>
