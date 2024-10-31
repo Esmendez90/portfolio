@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/static/css/main.ebf50583.css",
-    "main.js": "/static/js/main.5734197b.js",
+    "main.js": "/static/js/main.39a25801.js",
     "static/js/453.1407b060.chunk.js": "/static/js/453.1407b060.chunk.js",
     "static/media/EstebanMendezResume.pdf": "/static/media/EstebanMendezResume.7a8e1e4648d74928601c.pdf",
     "index.html": "/index.html",
     "main.ebf50583.css.map": "/static/css/main.ebf50583.css.map",
-    "main.5734197b.js.map": "/static/js/main.5734197b.js.map",
+    "main.39a25801.js.map": "/static/js/main.39a25801.js.map",
     "453.1407b060.chunk.js.map": "/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ebf50583.css",
-    "static/js/main.5734197b.js"
+    "static/js/main.39a25801.js"
   ]
 }
