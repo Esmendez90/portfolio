@@ -3,9 +3,12 @@ import "./style.css";
 
 const Form = () => {
   const [formStatus, setFormStatus] = useState("");
+  const [formSubmitting, setFormSubmitting] = useState(false); // ✅ New state
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+    setFormSubmitting(true); // show sending state
+    setFormStatus(""); // reset any previous messages
 
     const form = e.target;
     const formData = new FormData(form);
@@ -18,14 +21,16 @@ const Form = () => {
       });
 
       if (response.ok) {
-        setFormStatus("Thank you! Your message has been sent.");
+        setFormStatus("✅ Thank you! Your message has been sent.");
         form.reset();
       } else {
-        setFormStatus("Oops! Something went wrong. Please try again.");
+        setFormStatus("❌ Oops! Something went wrong. Please try again.");
       }
     } catch (error) {
-      setFormStatus("Network error. Please try again later.");
+      setFormStatus("❌ Network error. Please try again later.");
     }
+
+    setFormSubmitting(false); // reset button state
   };
 
   return (
@@ -35,32 +40,34 @@ const Form = () => {
           <div>
             <h2 style={{ color: "#4a4a4a" }}>Request Information</h2>
           </div>
-        </div>{" "}
+        </div>
 
         <div className="text-container col-sm-8">
+          <form onSubmit={handleSubmit}>
+            {/* Formsubmit Hidden Fields */}
+            <input
+              type="hidden"
+              name="_subject"
+              value="New message from React Portfolio"
+            />
+            <input type="hidden" name="_template" value="table" />
+            <input type="hidden" name="_captcha" value="false" />
 
-        <form onSubmit={handleSubmit}>
-          {/* Formsubmit Hidden Fields */}
-          <input
-            type="hidden"
-            name="_subject"
-            value="New message from React Portfolio"
-          />
-          <input type="hidden" name="_template" value="table" />
-          <input type="hidden" name="_captcha" value="false" />
+            <label htmlFor="name">Your Name</label>
+            <input type="text" name="name" id="name" required />
 
-          <label htmlFor="name">Your Name</label>
-          <input type="text" name="name" id="name" required />
+            <label htmlFor="email">Email Address</label>
+            <input type="email" name="email" id="email" required />
 
-          <label htmlFor="email">Email Address</label>
-          <input type="email" name="email" id="email" required />
+            <label htmlFor="message">Message</label>
+            <textarea name="message" id="message" rows="5" required></textarea>
 
-          <label htmlFor="message">Message</label>
-          <textarea name="message" id="message" rows="5" required></textarea>
+            <button type="submit" disabled={formSubmitting}>
+              {formSubmitting ? "Sending..." : "Send Message"}
+            </button>
+          </form>
 
-          <button type="submit">Send Message</button>
-        </form>
-        {formStatus && <p className="form-status">{formStatus}</p>}
+          {formStatus && <p className="form-status">{formStatus}</p>}
         </div>
       </div>
     </section>
