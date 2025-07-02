@@ -23,9 +23,11 @@ function Banner() {
               style={{
                 fontSize: "25px",
                 color: "white",
+                fontWeight: "bold",
+                textShadow: "1px 1px black",
               }}
             >
-              Web Developer
+              Bilingual Digital Services: Web Design, Immigration Help, Translation & More
             </p>
             <hr />
             <LanguageIcon />
