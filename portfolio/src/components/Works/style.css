@@ -3,6 +3,12 @@
     margin-bottom: 2rem;
 }
 
+.project-card div img {
+  height: 300px;
+  object-fit: cover;
+  object-position: 80% 0%;
+}
+
 /* merge styling witht the banner icons in banner directory */
 .links-container {
   display: inline-block;

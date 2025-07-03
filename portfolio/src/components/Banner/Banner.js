@@ -24,7 +24,7 @@ function Banner() {
                 fontSize: "25px",
                 color: "white",
                 fontWeight: "bold",
-                textShadow: "1px 1px black",
+                textShadow: "2px 1px black",
               }}
             >
               Bilingual Digital Services: Web Design, Immigration Help, Translation & More

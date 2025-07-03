@@ -30,7 +30,6 @@ function Works() {
                         src={process.env.PUBLIC_URL + [image]}
                         alt={alt}
                         className="d-block w-100"
-                        style={{ height: "auto" }}
                       />
                       <div
                         className="btn-container"
