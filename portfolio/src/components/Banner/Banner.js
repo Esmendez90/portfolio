@@ -10,7 +10,7 @@ function Banner() {
       >
         <div className="banner-img-container">
           <img
-            src={"/images/pexels-aleksandar-pasaric-2341830.jpg"}
+            src={'process.env.PUBLIC_URL/images/pexels-aleksandar-pasaric-2341830.jpg'}
             alt="esteban background banner"
           />
         </div>
