@@ -5,7 +5,7 @@
         "alt": "2 North Monitoring Devices site image",
         "title": "2 North Monitoring Devices",
         "text": "This website provides easy access to essential information about cardiac monitoring devices used in our clinic, including usage guidelines, ordering codes, and application instructions. It is designed to streamline workflows and reduce the need for printed materials. The site was built using HTML, CSS, JavaScript, and Bootstrap for a responsive and user-friendly design. It is deployed on GitHub Pages and uses Namecheap as the DNS provider.",
-        "siteLink": "https://www.2northmonitoringdevices.info/",
+        "siteLink": "https://esmendez90.github.io/2northmonitoringdevices/",
         "repoLink": "https://github.com/Esmendez90/2northmonitoringdevices",
         "icon": "faGithub",
         "icon2": "faArrowUpRightFromSquare"
